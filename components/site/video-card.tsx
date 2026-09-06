@@ -1,0 +1,4 @@
+import { Play } from "lucide-react";
+import site from "@/data/site.json";
+export type Video = {id:string;title:string;url:string;image:string;duration:string;category:string;summary?:string};
+export function VideoCard({video}:{video:Video}){return <article className="video-card"><a href={video.url} target="_blank" rel="noopener noreferrer" aria-label={`Watch ${video.title} on YouTube (opens in a new tab)`}><div className="thumbnail"><img src={video.image} alt="" width="720" height="405" loading="lazy"/><span className="play-badge"><Play size={14} fill="currentColor" aria-hidden="true"/></span><span className="duration">{video.duration}</span></div><div className="video-meta">{site.categories.find(c=>c.id===video.category)?.label}</div><h3>{video.title}</h3>{video.summary&&<p>{video.summary}</p>}</a></article>}

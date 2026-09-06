@@ -27,7 +27,7 @@ npm run build
 
 Add a video by copying a record and setting its actual YouTube ID, title, URL, thumbnail, duration and category (`growing`, `food`, `home`). There is no automatic sync: update the JSON and rebuild. This catalogue contains a curated 29-video snapshot from the channel, checked on 6 September 2026. No upload dates or view counts are invented.
 
-Videos open on YouTube. No embedded players, tracking scripts or video cookies are loaded by this application. The channel avatar, YouTube thumbnails and any remotely referenced photographs do make third-party image requests.
+Videos open on YouTube. No embedded players, tracking scripts or video cookies are loaded by this application. All images are served locally: photographs and video thumbnails from public/images/photos, and the channel logo from public/images/icons. Displaying images makes no third-party requests.
 
 The lightbulb-and-leaf logo is the current YouTube channel avatar, referenced directly at its published 160px size. Replace it with the original high-resolution asset if needed. The obsolete website wordmark is not used.
 

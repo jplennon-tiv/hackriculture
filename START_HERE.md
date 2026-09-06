@@ -28,7 +28,7 @@ Edit `data/site.json` for identity, links and photographs, and `data/videos.json
 
 ## Images
 
-Local images are included. As in the published site, the current YouTube logo and video thumbnails load from YouTube/Google image URLs. The homepage tomato photograph loads from hackriculture.com. Their exact URLs are preserved in the JSON; an internet connection is required for those images. Download your original image assets and replace those JSON URLs with local public/images paths if you want to host all imagery yourself.
+All site images are included locally. Photographs and video thumbnails live in `public/images/photos`; the logo lives in `public/images/icons`. The JSON content uses these local paths, so displaying images does not require access to external image hosts. Video links still open YouTube.
 
 ## Site configuration
 

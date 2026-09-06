@@ -11,3 +11,24 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 .brand{width:auto;display:flex;align-items:center;gap:13px}.brand img{width:54px;height:54px;object-fit:contain;border-radius:50%}.brand span{font-size:1.3rem;letter-spacing:-.045em;font-weight:900;line-height:1}.footer .brand{width:auto}.footer .brand img{width:42px;height:42px}.footer .brand span{font-size:1.05rem}.hero-image>img{object-position:center}.intro-photo img{object-position:28% center}.section:has(>.follow){padding-top:0}.section:has(>.follow)>.follow{margin-top:76px}
 @media(max-width:700px){.brand img{width:44px;height:44px}.brand span{font-size:1.15rem}.section:has(>.follow)>.follow{margin-top:48px}}
+
+/* Garden photographs: generous framing with a small harvest print. */
+.hero-grid{grid-template-columns:1fr 1.04fr;gap:24px;padding-block:48px;min-height:640px}
+.hero-copy{padding-block:24px;padding-right:24px}
+.hero-image{min-height:520px;margin:0;align-self:center}
+.hero-image>img{inset:18px 0 auto auto;width:94%;height:365px;object-fit:cover;object-position:center;border-radius:3px}
+.harvest-photo{position:absolute;bottom:0;left:0;width:48%;margin:0;padding:9px 9px 12px;background:var(--background);transform:rotate(-5deg);box-shadow:0 12px 30px #10261e40}
+.harvest-photo img{aspect-ratio:4/3;object-fit:cover}
+.harvest-photo figcaption{color:var(--foreground);font-size:.875rem;line-height:1.4;padding:10px 3px 0}
+.image-caption{bottom:32px;left:54%;max-width:46%;padding:0;background:transparent;color:#e7f077}
+.image-caption strong{font-size:1.2rem;line-height:1.35;letter-spacing:-.02em}
+.intro-panel{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}
+.intro-photo{min-height:500px}
+.intro-photo img{object-position:center 35%}
+.intro-copy{align-self:center}
+.about-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,88px);align-items:start}
+.about-portrait{width:100%;height:auto;border-radius:3px}
+.about-story h2:first-child{margin-top:0}
+@media(max-width:1000px){.hero-grid{gap:12px}.hero-image{min-height:460px}.hero-image>img{height:315px}.image-caption{bottom:24px}.image-caption strong{font-size:1rem}.intro-copy{padding:36px}.intro-photo{min-height:480px}}
+@media(max-width:700px){.hero-grid{padding-block:0;gap:0}.hero-copy{padding:40px 0 24px}.hero-image{align-self:stretch;height:auto;min-height:450px;margin:0 0 28px}.hero-image>img{height:300px;width:94%}.harvest-photo{width:45%;left:8px}.image-caption{left:54%;bottom:30px}.intro-panel{grid-template-columns:1fr}.intro-photo{min-height:0;aspect-ratio:4/5}.intro-photo img{object-position:center 30%}.about-layout{grid-template-columns:1fr;gap:36px}.about-portrait{max-width:450px;margin-inline:auto}}
+@media(max-width:400px){.hero-image{min-height:390px}.hero-image>img{height:260px}.harvest-photo{width:48%}.harvest-photo figcaption{font-size:.8rem}.image-caption{bottom:24px}.image-caption strong{font-size:.95rem}}

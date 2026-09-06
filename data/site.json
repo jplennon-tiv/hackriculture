@@ -2,9 +2,9 @@
   "name": "Hackriculture",
   "tagline": "Self-sufficient in an urban setting",
   "channelUrl": "https://www.youtube.com/@hackriculture",
-  "logo": "https://yt3.googleusercontent.com/PiQiT8YPsqneko3a5-JRdsgIsr3wMqcpuuZ2gQF4dkF0gFA0YR_jTffkWkRgPIqZ979f6wWp=s160-c-k-c0x00ffffff-no-rj",
-  "heroImage": "https://hackriculture.com/photographs/toms-plastic.jpeg",
-  "aboutImage": "/images/garden.jpg",
+  "logo": "/images/icons/hackriculture-logo.jpg",
+  "heroImage": "/images/photos/garden-summer.jpeg",
+  "aboutImage": "/images/photos/me-allotment-kneeling.jpeg",
   "location": "Cornwall, UK",
   "introVideoUrl": "https://www.youtube.com/watch?v=EgWiQnMn9qM",
   "description": "Grow your own food, make and repair everyday things, and explore practical self-sufficiency with John in Cornwall.",
@@ -21,5 +21,6 @@
       "id": "home",
       "label": "DIY & home energy"
     }
-  ]
+  ],
+  "harvestImage": "/images/photos/mixed-produce-1.jpeg"
 }

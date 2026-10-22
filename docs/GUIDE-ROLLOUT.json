@@ -1,0 +1,278 @@
+{
+  "scope": "Full vegetable collection in batches, authorised by John 9 September 2026",
+  "items": [
+    {
+      "sourceKey": "artichoke_jerusalem",
+      "title": "Artichoke, Jerusalem",
+      "slug": "jerusalem-artichokes",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "artichoke_globe",
+      "title": "Artichoke, Globe",
+      "slug": "globe-artichokes",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "asparagus",
+      "title": "Asparagus",
+      "slug": "asparagus",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "aubergine",
+      "title": "Aubergine",
+      "slug": "aubergines",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "bean_broad",
+      "title": "Bean, Broad",
+      "slug": "broad-beans",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "bean_french",
+      "title": "Bean, French",
+      "slug": "french-beans",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "bean_runner",
+      "title": "Bean, Runner",
+      "slug": "runner-beans",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "beet_leaf",
+      "title": "Beet, Leaf",
+      "slug": "chard-and-perpetual-spinach",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "beetroot",
+      "title": "Beetroot",
+      "slug": "beetroot",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "broccoli",
+      "title": "Broccoli",
+      "slug": "broccoli",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "brussels_sprouts",
+      "title": "Brussels Sprouts",
+      "slug": "brussels-sprouts",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "cabbage",
+      "title": "Cabbage",
+      "slug": "cabbages",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "capsicum",
+      "title": "Capsicum",
+      "slug": "peppers-and-chillies",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "carrot",
+      "title": "Carrot",
+      "slug": "carrots",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "cauliflower",
+      "title": "Cauliflower",
+      "slug": "cauliflower",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "celeriac",
+      "title": "Celeriac",
+      "slug": "celeriac",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "celery",
+      "title": "Celery",
+      "slug": "celery",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "chicory",
+      "title": "Chicory",
+      "slug": "chicory",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "cucumber_greenhouse",
+      "title": "Cucumber, Greenhouse",
+      "slug": "greenhouse-cucumbers",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "cucumber_outdoor",
+      "title": "Cucumber, Outdoor",
+      "slug": "outdoor-cucumbers",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "endive",
+      "title": "Endive",
+      "slug": "endive",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "florence_fennel",
+      "title": "Florence Fennel",
+      "slug": "florence-fennel",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "garlic",
+      "title": "Garlic",
+      "slug": "garlic",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "kale",
+      "title": "Kale",
+      "slug": "kale",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "kohl_rabi",
+      "title": "Kohl Rabi",
+      "slug": "kohl-rabi",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "leek",
+      "title": "Leek",
+      "slug": "leeks",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "lettuce",
+      "title": "Lettuce",
+      "slug": "lettuce",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "marrow_courgette",
+      "title": "Courgettes and Marrows",
+      "slug": "courgettes-and-marrows",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "squash_pumpkin",
+      "title": "Squashes and Pumpkins",
+      "slug": "squashes-and-pumpkins",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "mushroom",
+      "title": "Mushroom",
+      "slug": "mushrooms",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "onion_shallot",
+      "title": "Onions and Shallots",
+      "slug": "onions-and-shallots",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "oriental_leaves",
+      "title": "Oriental Leaves",
+      "slug": "asian-greens",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "parsnip",
+      "title": "Parsnip",
+      "slug": "parsnips",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "pea",
+      "title": "Pea",
+      "slug": "peas",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "potato",
+      "title": "Potato",
+      "slug": "potatoes",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "radish",
+      "title": "Radish",
+      "slug": "radishes",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "rhubarb",
+      "title": "Rhubarb",
+      "slug": "rhubarb",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "salsify_scorzonera",
+      "title": "Salsify & Scorzonera",
+      "slug": "salsify-and-scorzonera",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "spinach",
+      "title": "Spinach",
+      "slug": "spinach",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "swede",
+      "title": "Swede",
+      "slug": "swedes",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "sweet_corn",
+      "title": "Sweet Corn",
+      "slug": "sweetcorn",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "tomato_greenhouse",
+      "title": "Tomato, Greenhouse",
+      "slug": "greenhouse-tomatoes",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "tomato_outdoor",
+      "title": "Tomato, Outdoor",
+      "slug": "outdoor-tomatoes",
+      "status": "approved"
+    },
+    {
+      "sourceKey": "turnip",
+      "title": "Turnip",
+      "slug": "turnips",
+      "status": "approved"
+    }
+  ],
+  "nextBatch": [],
+  "completedDraftCount": 0,
+  "remainingSourceRecords": 0,
+  "approvedCount": 44,
+  "createdPageCount": 44,
+  "nextSteps": [
+    "John will build and upload manually.",
+    "Future graphics refinements, verified videos and genuine garden notes."
+  ]
+}

@@ -1,5 +1,16 @@
 # Downloaded project — quick start
 
+**Latest saved state — 21 October 2026:** read the
+[session checkpoint](docs/book-launch-planning/08-session-checkpoint.md) before
+continuing. It records the accepted website/calendar state, validation, recovery
+snapshot and remaining release work. The setup information below remains useful.
+
+**Current local prelaunch build (20 October 2026):** keep this checkout beside
+`hackriculture-data`, `hackriculture-print` and `hackriculture-video`. Editorial
+JSON lives in the shared sibling, not in a local `data/` folder. See
+[README.md](README.md), [SHARED-DATA.md](SHARED-DATA.md) and the
+[prelaunch handover](docs/book-launch-planning/05-prelaunch-implementation.md).
+
 This ZIP contains the complete source of the private Hackriculture review site, including configuration, package-lock.json, JSON content, reusable components, local assets and documentation. It excludes node_modules, Git history, caches and generated build output.
 
 ## Run locally (macOS or Linux)
@@ -16,15 +27,26 @@ Open the local address printed by Vite.
 ## Production build
 
 ```sh
-npx vinext build
-npm run start
+npm run build
 ```
 
-Use `npx vinext build` on macOS: the original `npm run build` wrapper expects GNU timeout, which macOS does not ship. Both invoke the same Vinext build. This project uses React, TypeScript, Vite and the Next-compatible Vinext routing layer; it is not a plain Vite SPA. The build targets a Cloudflare-compatible Worker.
+Use Node.js 22.13 or newer. The build creates a static website in `dist/client`, including `index.html`, `about/index.html`, `videos/index.html`, JavaScript, styles and all local images. No Node.js or Cloudflare runtime is needed on your web host.
+
+## Upload with FTP / SFTP
+
+1. Run `npm run build` and wait for all routes to export successfully.
+2. Back up your existing live website.
+3. Upload **the contents of `dist/client/`** to your domain's document root (often `public_html`). Keep the `assets`, `images`, `about` and `videos` directories and all other exported files intact. Do not upload the parent `dist` folder, `dist/server`, source files or `node_modules`.
+4. Check the homepage, then open and refresh `/about/` and `/videos/` directly. Check images and video links.
+
+This configuration assumes the site is served at the domain root. The host must serve `index.html` for directories; no single-page-app fallback rule is needed. Preserve unrelated server files such as `.htaccess` when uploading.
 
 ## Edit content
 
-Edit `data/site.json` for identity, links and photographs, and `data/videos.json` for videos. The first six records appear on the homepage. See README.md for the component and route layout.
+Identity and videos live in `../hackriculture-data/website/site.json` and
+`videos.json`; `book-launch.json` selects homepage videos and holds the book
+presentation and public launch form settings. Follow the shared-data skill for
+guarded edits. See README.md for component and route layout.
 
 ## Images
 

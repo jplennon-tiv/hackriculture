@@ -1,0 +1,123 @@
+[
+  {
+    "id": "intro",
+    "section": "FROM SEED TO SUPPER",
+    "title": "Carrots",
+    "accent": "in 3 Minutes",
+    "text": "Carrots in three minutes. Sweet, crunchy roots, straight from your own garden. Here's how to sow them, look after them, and bring in the harvest.",
+    "note": "A practical UK growing guide",
+    "durationInFrames": 367,
+    "audioDuration": 11.67673469387755,
+    "startFrame": 0
+  },
+  {
+    "id": "soil",
+    "section": "01 / PREPARE",
+    "title": "Start with\ngood soil",
+    "accent": "Give roots a clear run",
+    "text": "Choose a sunny spot with loose, well-drained soil. Remove stones and break up hard lumps. Skip fresh manure, which can encourage forked roots. On heavy or shallow ground, choose a short-rooted variety.",
+    "note": "Loose soil \u00b7 fewer stones \u00b7 no fresh manure",
+    "durationInFrames": 428,
+    "audioDuration": 13.714285714285714,
+    "startFrame": 367
+  },
+  {
+    "id": "calendar",
+    "section": "02 / WHEN TO SOW",
+    "title": "Wait for\nwarmer soil",
+    "accent": "April to June",
+    "text": "For a straightforward UK crop, sow from April to June, once the soil is workable and warming. Early varieties can go under cover in March. Sow another small batch every few weeks for a longer harvest.",
+    "note": "Timing varies with variety and local weather",
+    "durationInFrames": 348,
+    "audioDuration": 11.049795918367346,
+    "startFrame": 795
+  },
+  {
+    "id": "sow",
+    "section": "03 / SOW DIRECT",
+    "title": "Sow where\nthey will grow",
+    "accent": "1\u20131.3 cm deep",
+    "text": "Water a shallow drill, then scatter seed thinly, about one centimetre deep. Leave fifteen to thirty centimetres between rows. Cover lightly and firm gently. Sow direct: transplanting can damage the developing root.",
+    "note": "Rows 15\u201330 cm apart \u00b7 follow your seed packet",
+    "durationInFrames": 444,
+    "audioDuration": 14.236734693877551,
+    "startFrame": 1143
+  },
+  {
+    "id": "germinate",
+    "section": "04 / GET THEM STARTED",
+    "title": "Be patient.\nKeep it moist.",
+    "accent": "About 2\u20133 weeks",
+    "text": "Germination can take around two to three weeks, longer in cold soil. Keep the seed zone moist, without waterlogging it. Watch for slugs while seedlings are small, and remove weeds before they take over.",
+    "note": "Moist at seed depth \u00b7 never waterlogged",
+    "durationInFrames": 399,
+    "audioDuration": 12.747755102040816,
+    "startFrame": 1587
+  },
+  {
+    "id": "thin",
+    "section": "05 / MAKE ROOM",
+    "title": "Give each\nroot space",
+    "accent": "5\u20138 cm apart",
+    "text": "Thin only crowded seedlings, leaving five to eight centimetres between plants. Work gently in damp conditions, remove the thinnings, and firm the soil around the plants you keep. Avoid bruising the foliage.",
+    "note": "Thin gently \u00b7 remove thinnings \u00b7 replace mesh",
+    "durationInFrames": 374,
+    "audioDuration": 11.885714285714286,
+    "startFrame": 1986
+  },
+  {
+    "id": "water",
+    "section": "06 / LOOK AFTER THEM",
+    "title": "Keep growth\nsteady",
+    "accent": "Water in dry spells",
+    "text": "Once established, water deeply during prolonged dry spells. Pots need checking more often. A drought followed by a sudden soaking can split roots. Weed carefully by hand close to the carrots, keeping disturbance to a minimum.",
+    "note": "Steady moisture helps prevent split roots",
+    "durationInFrames": 431,
+    "audioDuration": 13.79265306122449,
+    "startFrame": 2360
+  },
+  {
+    "id": "mesh",
+    "section": "07 / PROTECT THE CROP",
+    "title": "Keep carrot\nfly out",
+    "accent": "Cover with fine insect mesh",
+    "text": "Carrot fly larvae tunnel into the roots. Cover the whole crop with fine insect mesh, securing every edge. Replace it straight after weeding or thinning, and avoid ground where carrots were recently grown.",
+    "note": "Cover the whole crop \u00b7 secure all edges",
+    "durationInFrames": 421,
+    "audioDuration": 13.453061224489796,
+    "startFrame": 2791
+  },
+  {
+    "id": "harvest",
+    "section": "08 / HARVEST",
+    "title": "Pull them\nyoung & sweet",
+    "accent": "Usually 12\u201316 weeks",
+    "text": "Harvest when the roots are big enough to eat, usually twelve to sixteen weeks after sowing. Baby carrots may be ready around eight weeks. Start at one end of the row; loosen hard soil with a fork before pulling.",
+    "note": "Size matters more than the calendar",
+    "durationInFrames": 405,
+    "audioDuration": 12.93061224489796,
+    "startFrame": 3212
+  },
+  {
+    "id": "store",
+    "section": "09 / ENJOY & STORE",
+    "title": "Keep the\nharvest coming",
+    "accent": "Store only sound roots",
+    "text": "Enjoy some freshly pulled. For storage, lift before hard frost or prolonged wet weather. Trim the leaves and pack sound roots in sand in a cool, airy place. Check regularly and remove any that rot.",
+    "note": "Use damaged roots promptly \u00b7 check stored roots",
+    "durationInFrames": 449,
+    "audioDuration": 14.393469387755102,
+    "startFrame": 3617
+  },
+  {
+    "id": "outro",
+    "section": "HACKRICULTURE",
+    "title": "Sow thinly.\nGrow steadily.\nHarvest sweet.",
+    "accent": "Now grow your own.",
+    "text": "Good soil, thin sowing, steady moisture, and mesh. That's carrots in three minutes. Follow Hackriculture for more practical ways to grow your own food.",
+    "note": "@hackriculture",
+    "durationInFrames": 311,
+    "audioDuration": 9.795918367346939,
+    "startFrame": 4066
+  }
+]

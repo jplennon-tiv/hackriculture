@@ -1,0 +1,2508 @@
+[
+  {
+    "text": "Carrots",
+    "startMs": 260.0,
+    "endMs": 659.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 740.0,
+    "endMs": 800.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "three",
+    "startMs": 899.0,
+    "endMs": 1039.0000000000002,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "minutes.",
+    "startMs": 1138.9999999999998,
+    "endMs": 1519.0000000000002,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Sweet,",
+    "startMs": 2439.0,
+    "endMs": 2759.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "crunchy",
+    "startMs": 3580.0,
+    "endMs": 3899.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "roots,",
+    "startMs": 3999.0,
+    "endMs": 4359.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "straight",
+    "startMs": 5100.000000000001,
+    "endMs": 5339.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "from",
+    "startMs": 5419.000000000001,
+    "endMs": 5540.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "your",
+    "startMs": 5580.0,
+    "endMs": 5699.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "own",
+    "startMs": 5739.0,
+    "endMs": 5899.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "garden.",
+    "startMs": 5959.000000000001,
+    "endMs": 6339.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Here's",
+    "startMs": 7199.0,
+    "endMs": 7359.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "how",
+    "startMs": 7399.0,
+    "endMs": 7479.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 7519.0,
+    "endMs": 7620.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sow",
+    "startMs": 7679.0,
+    "endMs": 7839.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "them,",
+    "startMs": 7879.0,
+    "endMs": 8080.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "look",
+    "startMs": 8899.0,
+    "endMs": 9018.999999999998,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "after",
+    "startMs": 9098.999999999998,
+    "endMs": 9359.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "them,",
+    "startMs": 9399.0,
+    "endMs": 9620.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 10399.0,
+    "endMs": 10500.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "bring",
+    "startMs": 10598.999999999998,
+    "endMs": 10738.999999999998,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 10779.0,
+    "endMs": 10838.999999999998,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 10899.0,
+    "endMs": 10959.999999999998,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "harvest.",
+    "startMs": 11018.999999999998,
+    "endMs": 11518.999999999998,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Choose",
+    "startMs": 12452.333333333332,
+    "endMs": 12652.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 12712.333333333332,
+    "endMs": 12732.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sunny",
+    "startMs": 12853.333333333332,
+    "endMs": 13052.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "spot",
+    "startMs": 13152.333333333332,
+    "endMs": 13432.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "with",
+    "startMs": 13512.333333333332,
+    "endMs": 13632.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "loose,",
+    "startMs": 13752.333333333332,
+    "endMs": 13992.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "well-drained",
+    "startMs": 14353.333333333332,
+    "endMs": 14872.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "soil.",
+    "startMs": 14992.33333333333,
+    "endMs": 15353.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Remove",
+    "startMs": 16192.33333333333,
+    "endMs": 16472.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "stones",
+    "startMs": 16552.33333333333,
+    "endMs": 16952.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 17012.333333333332,
+    "endMs": 17092.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "break",
+    "startMs": 17172.333333333332,
+    "endMs": 17353.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "up",
+    "startMs": 17412.333333333332,
+    "endMs": 17512.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hard",
+    "startMs": 17592.333333333332,
+    "endMs": 17793.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lumps.",
+    "startMs": 17872.33333333333,
+    "endMs": 18192.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Skip",
+    "startMs": 18972.333333333332,
+    "endMs": 19212.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "fresh",
+    "startMs": 19333.333333333332,
+    "endMs": 19532.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "manure,",
+    "startMs": 19612.333333333332,
+    "endMs": 19972.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "which",
+    "startMs": 20733.333333333336,
+    "endMs": 20873.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "can",
+    "startMs": 20932.333333333332,
+    "endMs": 21033.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "encourage",
+    "startMs": 21073.333333333332,
+    "endMs": 21492.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "forked",
+    "startMs": 21592.333333333332,
+    "endMs": 21832.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "roots.",
+    "startMs": 21892.333333333332,
+    "endMs": 22233.333333333336,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "On",
+    "startMs": 22693.333333333332,
+    "endMs": 22832.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "heavy",
+    "startMs": 22872.33333333333,
+    "endMs": 23132.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "or",
+    "startMs": 23212.333333333332,
+    "endMs": 23273.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "shallow",
+    "startMs": 23392.333333333332,
+    "endMs": 23632.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ground,",
+    "startMs": 23752.333333333332,
+    "endMs": 24092.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "choose",
+    "startMs": 24452.333333333332,
+    "endMs": 24632.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 24693.333333333332,
+    "endMs": 24773.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "short-rooted",
+    "startMs": 24813.333333333332,
+    "endMs": 25293.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "variety.",
+    "startMs": 25332.333333333332,
+    "endMs": 25832.333333333332,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "For",
+    "startMs": 26699.0,
+    "endMs": 26799.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 26859.0,
+    "endMs": 26900.000000000004,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "straightforward",
+    "startMs": 26939.0,
+    "endMs": 27479.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "UK",
+    "startMs": 27539.0,
+    "endMs": 27759.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "crop,",
+    "startMs": 27840.0,
+    "endMs": 28120.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sow",
+    "startMs": 28579.0,
+    "endMs": 28820.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "from",
+    "startMs": 28879.0,
+    "endMs": 29039.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "April",
+    "startMs": 29080.000000000004,
+    "endMs": 29360.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 29399.0,
+    "endMs": 29459.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "June,",
+    "startMs": 29559.0,
+    "endMs": 29860.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "once",
+    "startMs": 30279.0,
+    "endMs": 30479.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 30519.000000000004,
+    "endMs": 30600.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "soil",
+    "startMs": 30639.000000000004,
+    "endMs": 30879.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "is",
+    "startMs": 30939.0,
+    "endMs": 31060.000000000004,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "workable",
+    "startMs": 31080.000000000004,
+    "endMs": 31500.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 31520.000000000004,
+    "endMs": 31659.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "warming.",
+    "startMs": 31699.0,
+    "endMs": 32040.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Early",
+    "startMs": 32499.000000000004,
+    "endMs": 32698.999999999996,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "varieties",
+    "startMs": 32759.0,
+    "endMs": 33219.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "can",
+    "startMs": 33259.0,
+    "endMs": 33399.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "go",
+    "startMs": 33419.00000000001,
+    "endMs": 33519.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "under",
+    "startMs": 33560.0,
+    "endMs": 33759.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cover",
+    "startMs": 33779.0,
+    "endMs": 33999.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 34019.0,
+    "endMs": 34159.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "March.",
+    "startMs": 34179.0,
+    "endMs": 34459.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Sow",
+    "startMs": 34880.0,
+    "endMs": 35019.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "another",
+    "startMs": 35059.0,
+    "endMs": 35300.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "small",
+    "startMs": 35380.0,
+    "endMs": 35599.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "batch",
+    "startMs": 35639.0,
+    "endMs": 35880.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "every",
+    "startMs": 35939.0,
+    "endMs": 36120.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "few",
+    "startMs": 36179.0,
+    "endMs": 36319.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "weeks",
+    "startMs": 36319.0,
+    "endMs": 36540.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "for",
+    "startMs": 36580.0,
+    "endMs": 36659.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 36759.0,
+    "endMs": 36779.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "longer",
+    "startMs": 36799.0,
+    "endMs": 37060.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "harvest.",
+    "startMs": 37099.00000000001,
+    "endMs": 37460.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Water",
+    "startMs": 38339.0,
+    "endMs": 38659.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 38839.99999999999,
+    "endMs": 38859.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "shallow",
+    "startMs": 38960.0,
+    "endMs": 39220.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "drill,",
+    "startMs": 39299.0,
+    "endMs": 39580.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "then",
+    "startMs": 40019.0,
+    "endMs": 40159.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "scatter",
+    "startMs": 40259.0,
+    "endMs": 40559.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "seed",
+    "startMs": 40660.0,
+    "endMs": 40960.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "thinly,",
+    "startMs": 41019.0,
+    "endMs": 41339.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "about",
+    "startMs": 41819.0,
+    "endMs": 42039.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "one",
+    "startMs": 42099.0,
+    "endMs": 42199.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "centimetre",
+    "startMs": 42319.0,
+    "endMs": 42779.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "deep.",
+    "startMs": 42839.0,
+    "endMs": 43059.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Leave",
+    "startMs": 43819.0,
+    "endMs": 43998.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "fifteen",
+    "startMs": 44079.0,
+    "endMs": 44399.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 44539.0,
+    "endMs": 44680.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "thirty",
+    "startMs": 44720.0,
+    "endMs": 44899.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "centimetres",
+    "startMs": 45019.0,
+    "endMs": 45458.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "between",
+    "startMs": 45539.0,
+    "endMs": 45839.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "rows.",
+    "startMs": 45899.0,
+    "endMs": 46200.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cover",
+    "startMs": 46879.0,
+    "endMs": 47060.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lightly",
+    "startMs": 47159.0,
+    "endMs": 47579.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 47619.0,
+    "endMs": 47739.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "firm",
+    "startMs": 47879.0,
+    "endMs": 48119.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "gently.",
+    "startMs": 48220.0,
+    "endMs": 48899.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Sow",
+    "startMs": 48919.0,
+    "endMs": 49060.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "direct:",
+    "startMs": 49180.0,
+    "endMs": 49979.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "transplanting",
+    "startMs": 50039.0,
+    "endMs": 50680.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "can",
+    "startMs": 50720.0,
+    "endMs": 50919.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "damage",
+    "startMs": 50959.0,
+    "endMs": 51299.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 51379.0,
+    "endMs": 51419.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "developing",
+    "startMs": 51479.0,
+    "endMs": 51919.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "root.",
+    "startMs": 51998.99999999999,
+    "endMs": 52220.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Germination",
+    "startMs": 53138.99999999999,
+    "endMs": 53659.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "can",
+    "startMs": 53699.99999999999,
+    "endMs": 53799.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "take",
+    "startMs": 53839.0,
+    "endMs": 53958.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "around",
+    "startMs": 54019.99999999999,
+    "endMs": 54279.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "two",
+    "startMs": 54298.99999999999,
+    "endMs": 54379.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 54438.99999999999,
+    "endMs": 54519.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "three",
+    "startMs": 54538.99999999999,
+    "endMs": 54699.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "weeks,",
+    "startMs": 54798.99999999999,
+    "endMs": 55059.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "longer",
+    "startMs": 55398.99999999999,
+    "endMs": 55779.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 55818.99999999999,
+    "endMs": 55938.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cold",
+    "startMs": 55999.99999999999,
+    "endMs": 56199.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "soil.",
+    "startMs": 56298.99999999999,
+    "endMs": 56619.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Keep",
+    "startMs": 57199.0,
+    "endMs": 57339.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 57400.0,
+    "endMs": 57459.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "seed",
+    "startMs": 57538.99999999999,
+    "endMs": 57718.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "zone",
+    "startMs": 57779.0,
+    "endMs": 58019.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "moist,",
+    "startMs": 58078.99999999999,
+    "endMs": 58419.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "without",
+    "startMs": 58839.0,
+    "endMs": 59159.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "waterlogging",
+    "startMs": 59199.0,
+    "endMs": 59758.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "it.",
+    "startMs": 59798.99999999999,
+    "endMs": 59919.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Watch",
+    "startMs": 60739.0,
+    "endMs": 60898.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "for",
+    "startMs": 60959.99999999999,
+    "endMs": 61099.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "slugs",
+    "startMs": 61158.99999999999,
+    "endMs": 61559.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "while",
+    "startMs": 61919.0,
+    "endMs": 62059.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "seedlings",
+    "startMs": 62178.99999999999,
+    "endMs": 62538.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "are",
+    "startMs": 62578.99999999999,
+    "endMs": 62699.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "small,",
+    "startMs": 62739.0,
+    "endMs": 63059.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 63759.0,
+    "endMs": 63860.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "remove",
+    "startMs": 63900.0,
+    "endMs": 64218.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "weeds",
+    "startMs": 64279.0,
+    "endMs": 64559.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "before",
+    "startMs": 64598.99999999999,
+    "endMs": 64840.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "they",
+    "startMs": 64878.99999999999,
+    "endMs": 65019.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "take",
+    "startMs": 65059.0,
+    "endMs": 65199.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "over.",
+    "startMs": 65279.0,
+    "endMs": 65519.99999999999,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Thin",
+    "startMs": 66460.00000000001,
+    "endMs": 66699.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "only",
+    "startMs": 66839.00000000001,
+    "endMs": 67039.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "crowded",
+    "startMs": 67139.00000000001,
+    "endMs": 67440.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "seedlings,",
+    "startMs": 67519.0,
+    "endMs": 67979.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "leaving",
+    "startMs": 68239.0,
+    "endMs": 68479.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "five",
+    "startMs": 68579.00000000001,
+    "endMs": 68739.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 68859.00000000001,
+    "endMs": 68959.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "eight",
+    "startMs": 68979.00000000001,
+    "endMs": 69060.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "centimetres",
+    "startMs": 69179.0,
+    "endMs": 69639.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "between",
+    "startMs": 69719.00000000001,
+    "endMs": 70039.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "plants.",
+    "startMs": 70159.0,
+    "endMs": 70539.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Work",
+    "startMs": 71119.00000000001,
+    "endMs": 71280.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "gently",
+    "startMs": 71320.00000000001,
+    "endMs": 71579.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 71619.00000000001,
+    "endMs": 71720.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "damp",
+    "startMs": 71760.0,
+    "endMs": 71959.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "conditions,",
+    "startMs": 72019.0,
+    "endMs": 72479.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "remove",
+    "startMs": 72760.0,
+    "endMs": 73019.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 73059.00000000001,
+    "endMs": 73159.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "thinnings,",
+    "startMs": 73179.0,
+    "endMs": 73579.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 73820.00000000001,
+    "endMs": 73899.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "firm",
+    "startMs": 73999.00000000001,
+    "endMs": 74179.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 74219.00000000001,
+    "endMs": 74280.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "soil",
+    "startMs": 74379.0,
+    "endMs": 74620.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "around",
+    "startMs": 74700.0,
+    "endMs": 74859.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 74899.0,
+    "endMs": 74960.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "plants",
+    "startMs": 75019.0,
+    "endMs": 75259.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "you",
+    "startMs": 75299.0,
+    "endMs": 75399.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "keep.",
+    "startMs": 75439.0,
+    "endMs": 75679.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Avoid",
+    "startMs": 76660.00000000001,
+    "endMs": 76959.0,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "bruising",
+    "startMs": 77039.0,
+    "endMs": 77320.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 77359.00000000001,
+    "endMs": 77419.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "foliage.",
+    "startMs": 77479.00000000001,
+    "endMs": 77919.00000000001,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Once",
+    "startMs": 78945.66666666669,
+    "endMs": 79086.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "established,",
+    "startMs": 79126.66666666669,
+    "endMs": 79665.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "water",
+    "startMs": 80205.66666666667,
+    "endMs": 80445.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "deeply",
+    "startMs": 80565.66666666667,
+    "endMs": 80905.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "during",
+    "startMs": 80986.66666666669,
+    "endMs": 81185.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "prolonged",
+    "startMs": 81286.66666666667,
+    "endMs": 81825.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "dry",
+    "startMs": 81945.66666666669,
+    "endMs": 82125.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "spells.",
+    "startMs": 82225.66666666669,
+    "endMs": 82685.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Pots",
+    "startMs": 83345.66666666667,
+    "endMs": 83625.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "need",
+    "startMs": 83706.66666666667,
+    "endMs": 83885.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "checking",
+    "startMs": 83925.66666666667,
+    "endMs": 84246.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "more",
+    "startMs": 84305.66666666669,
+    "endMs": 84445.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "often.",
+    "startMs": 84525.66666666669,
+    "endMs": 84805.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "A",
+    "startMs": 85425.66666666667,
+    "endMs": 85465.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "drought",
+    "startMs": 85505.66666666667,
+    "endMs": 85845.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "followed",
+    "startMs": 85945.66666666669,
+    "endMs": 86205.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "by",
+    "startMs": 86246.66666666667,
+    "endMs": 86325.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 86385.66666666669,
+    "endMs": 86445.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sudden",
+    "startMs": 86505.66666666667,
+    "endMs": 86726.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "soaking",
+    "startMs": 86865.66666666667,
+    "endMs": 87246.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "can",
+    "startMs": 87286.66666666667,
+    "endMs": 87445.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "split",
+    "startMs": 87506.66666666667,
+    "endMs": 87766.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "roots.",
+    "startMs": 87845.66666666667,
+    "endMs": 88145.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Weed",
+    "startMs": 88546.66666666669,
+    "endMs": 88825.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carefully",
+    "startMs": 88885.66666666669,
+    "endMs": 89265.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "by",
+    "startMs": 89305.66666666669,
+    "endMs": 89425.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hand",
+    "startMs": 89465.66666666667,
+    "endMs": 89746.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "close",
+    "startMs": 89845.66666666667,
+    "endMs": 90025.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 90065.66666666667,
+    "endMs": 90105.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 90145.66666666667,
+    "endMs": 90225.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carrots,",
+    "startMs": 90265.66666666667,
+    "endMs": 90685.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "keeping",
+    "startMs": 90965.66666666667,
+    "endMs": 91206.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "disturbance",
+    "startMs": 91246.66666666667,
+    "endMs": 91725.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 91765.66666666667,
+    "endMs": 91846.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 91865.66666666667,
+    "endMs": 91925.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "minimum.",
+    "startMs": 91965.66666666667,
+    "endMs": 92345.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Carrot",
+    "startMs": 93272.33333333334,
+    "endMs": 93612.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "fly",
+    "startMs": 93672.33333333334,
+    "endMs": 93872.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "larvae",
+    "startMs": 93972.33333333334,
+    "endMs": 94373.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "tunnel",
+    "startMs": 94492.33333333333,
+    "endMs": 94812.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "into",
+    "startMs": 94852.33333333333,
+    "endMs": 95032.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 95072.33333333333,
+    "endMs": 95112.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "roots.",
+    "startMs": 95172.33333333334,
+    "endMs": 95512.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Cover",
+    "startMs": 96472.33333333334,
+    "endMs": 96672.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 96732.33333333333,
+    "endMs": 96772.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "whole",
+    "startMs": 96852.33333333333,
+    "endMs": 97032.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "crop",
+    "startMs": 97153.33333333334,
+    "endMs": 97432.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "with",
+    "startMs": 97492.33333333333,
+    "endMs": 97573.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "fine",
+    "startMs": 97692.33333333334,
+    "endMs": 97952.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "insect",
+    "startMs": 98053.33333333334,
+    "endMs": 98432.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "mesh,",
+    "startMs": 98512.33333333333,
+    "endMs": 98752.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "securing",
+    "startMs": 99113.33333333333,
+    "endMs": 99573.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "every",
+    "startMs": 99653.33333333334,
+    "endMs": 99872.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "edge.",
+    "startMs": 99972.33333333334,
+    "endMs": 100232.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Replace",
+    "startMs": 100952.33333333334,
+    "endMs": 101272.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "it",
+    "startMs": 101312.33333333334,
+    "endMs": 101413.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "straight",
+    "startMs": 101472.33333333334,
+    "endMs": 101752.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "after",
+    "startMs": 101812.33333333334,
+    "endMs": 102012.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "weeding",
+    "startMs": 102113.33333333334,
+    "endMs": 102453.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "or",
+    "startMs": 102533.33333333333,
+    "endMs": 102573.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "thinning,",
+    "startMs": 102692.33333333334,
+    "endMs": 103012.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 103852.33333333333,
+    "endMs": 103932.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "avoid",
+    "startMs": 104033.33333333333,
+    "endMs": 104312.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ground",
+    "startMs": 104372.33333333333,
+    "endMs": 104712.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "where",
+    "startMs": 104772.33333333334,
+    "endMs": 104872.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carrots",
+    "startMs": 105012.33333333333,
+    "endMs": 105392.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "were",
+    "startMs": 105432.33333333333,
+    "endMs": 105533.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "recently",
+    "startMs": 105573.33333333334,
+    "endMs": 105932.33333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "grown.",
+    "startMs": 106033.33333333333,
+    "endMs": 106332.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Harvest",
+    "startMs": 107305.66666666667,
+    "endMs": 107686.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "when",
+    "startMs": 107746.66666666667,
+    "endMs": 107845.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 107885.66666666667,
+    "endMs": 107926.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "roots",
+    "startMs": 107965.66666666666,
+    "endMs": 108205.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "are",
+    "startMs": 108225.66666666667,
+    "endMs": 108385.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "big",
+    "startMs": 108406.66666666667,
+    "endMs": 108485.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "enough",
+    "startMs": 108585.66666666667,
+    "endMs": 108745.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 108765.66666666666,
+    "endMs": 108885.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "eat,",
+    "startMs": 108926.66666666666,
+    "endMs": 109085.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "usually",
+    "startMs": 109525.66666666667,
+    "endMs": 109865.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "twelve",
+    "startMs": 109885.66666666667,
+    "endMs": 110125.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 110285.66666666667,
+    "endMs": 110406.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sixteen",
+    "startMs": 110445.66666666667,
+    "endMs": 110765.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "weeks",
+    "startMs": 110906.66666666667,
+    "endMs": 111125.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "after",
+    "startMs": 111205.66666666667,
+    "endMs": 111425.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sowing.",
+    "startMs": 111485.66666666667,
+    "endMs": 111785.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Baby",
+    "startMs": 112186.66666666667,
+    "endMs": 112385.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carrots",
+    "startMs": 112505.66666666667,
+    "endMs": 112845.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "may",
+    "startMs": 112885.66666666667,
+    "endMs": 112985.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "be",
+    "startMs": 113025.66666666667,
+    "endMs": 113065.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ready",
+    "startMs": 113166.66666666667,
+    "endMs": 113365.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "around",
+    "startMs": 113385.66666666667,
+    "endMs": 113725.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "eight",
+    "startMs": 113785.66666666667,
+    "endMs": 113885.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "weeks.",
+    "startMs": 113985.66666666667,
+    "endMs": 114345.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Start",
+    "startMs": 115325.66666666666,
+    "endMs": 115585.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "at",
+    "startMs": 115625.66666666666,
+    "endMs": 115786.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "one",
+    "startMs": 115805.66666666667,
+    "endMs": 115946.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "end",
+    "startMs": 116005.66666666667,
+    "endMs": 116126.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "of",
+    "startMs": 116146.66666666667,
+    "endMs": 116225.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 116245.66666666667,
+    "endMs": 116285.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "row;",
+    "startMs": 116365.66666666667,
+    "endMs": 116585.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "loosen",
+    "startMs": 117505.66666666667,
+    "endMs": 117885.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hard",
+    "startMs": 117925.66666666667,
+    "endMs": 118205.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "soil",
+    "startMs": 118265.66666666667,
+    "endMs": 118526.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "with",
+    "startMs": 118606.66666666667,
+    "endMs": 118706.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 118725.66666666667,
+    "endMs": 118825.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "fork",
+    "startMs": 118885.66666666667,
+    "endMs": 119146.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "before",
+    "startMs": 119186.66666666667,
+    "endMs": 119465.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "pulling.",
+    "startMs": 119585.66666666667,
+    "endMs": 119885.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Enjoy",
+    "startMs": 120826.66666666667,
+    "endMs": 121125.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "some",
+    "startMs": 121205.66666666667,
+    "endMs": 121325.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "freshly",
+    "startMs": 121385.66666666667,
+    "endMs": 121686.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "pulled.",
+    "startMs": 121786.66666666666,
+    "endMs": 122105.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "For",
+    "startMs": 122645.66666666667,
+    "endMs": 122745.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "storage,",
+    "startMs": 122825.66666666666,
+    "endMs": 123305.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "lift",
+    "startMs": 124186.66666666667,
+    "endMs": 124406.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "before",
+    "startMs": 124485.66666666667,
+    "endMs": 124765.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "hard",
+    "startMs": 124865.66666666667,
+    "endMs": 125086.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "frost",
+    "startMs": 125166.66666666667,
+    "endMs": 125606.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "or",
+    "startMs": 125885.66666666667,
+    "endMs": 125945.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "prolonged",
+    "startMs": 126025.66666666667,
+    "endMs": 126425.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "wet",
+    "startMs": 126485.66666666667,
+    "endMs": 126606.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "weather.",
+    "startMs": 126666.66666666667,
+    "endMs": 127005.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Trim",
+    "startMs": 127825.66666666666,
+    "endMs": 128005.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "the",
+    "startMs": 128045.66666666667,
+    "endMs": 128105.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "leaves",
+    "startMs": 128186.66666666667,
+    "endMs": 128565.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 128906.66666666667,
+    "endMs": 129006.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "pack",
+    "startMs": 129085.66666666667,
+    "endMs": 129265.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sound",
+    "startMs": 129345.66666666666,
+    "endMs": 129585.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "roots",
+    "startMs": 129606.66666666666,
+    "endMs": 129805.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 129845.66666666666,
+    "endMs": 129906.66666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sand",
+    "startMs": 130026.66666666667,
+    "endMs": 130345.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 130385.66666666669,
+    "endMs": 130446.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "a",
+    "startMs": 130486.66666666669,
+    "endMs": 130566.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "cool,",
+    "startMs": 130646.66666666667,
+    "endMs": 130885.66666666669,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "airy",
+    "startMs": 131045.66666666667,
+    "endMs": 131245.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "place.",
+    "startMs": 131345.66666666666,
+    "endMs": 131745.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Check",
+    "startMs": 132465.66666666666,
+    "endMs": 132606.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "regularly",
+    "startMs": 132686.66666666666,
+    "endMs": 133225.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 133545.6666666667,
+    "endMs": 133625.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "remove",
+    "startMs": 133686.66666666666,
+    "endMs": 134045.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "any",
+    "startMs": 134085.66666666666,
+    "endMs": 134245.66666666666,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "that",
+    "startMs": 134305.66666666666,
+    "endMs": 134425.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "rot.",
+    "startMs": 134505.66666666666,
+    "endMs": 134825.6666666667,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Good",
+    "startMs": 135732.33333333334,
+    "endMs": 135892.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "soil,",
+    "startMs": 136032.3333333333,
+    "endMs": 136352.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "thin",
+    "startMs": 136653.33333333334,
+    "endMs": 136812.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "sowing,",
+    "startMs": 136972.3333333333,
+    "endMs": 137332.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "steady",
+    "startMs": 137672.33333333334,
+    "endMs": 138072.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "moisture,",
+    "startMs": 138133.3333333333,
+    "endMs": 138832.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "and",
+    "startMs": 138893.33333333334,
+    "endMs": 139072.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "mesh.",
+    "startMs": 139092.33333333334,
+    "endMs": 139452.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "That's",
+    "startMs": 139992.33333333334,
+    "endMs": 140212.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "carrots",
+    "startMs": 140252.3333333333,
+    "endMs": 140593.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "in",
+    "startMs": 140633.3333333333,
+    "endMs": 140752.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "three",
+    "startMs": 140812.3333333333,
+    "endMs": 140932.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "minutes.",
+    "startMs": 141053.33333333334,
+    "endMs": 141372.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Follow",
+    "startMs": 141932.33333333334,
+    "endMs": 142153.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Hackriculture",
+    "startMs": 142232.33333333334,
+    "endMs": 142992.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "for",
+    "startMs": 143052.33333333334,
+    "endMs": 143172.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "more",
+    "startMs": 143212.33333333334,
+    "endMs": 143412.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "practical",
+    "startMs": 143432.33333333334,
+    "endMs": 143913.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ways",
+    "startMs": 143953.33333333334,
+    "endMs": 144172.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "to",
+    "startMs": 144212.33333333334,
+    "endMs": 144333.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "grow",
+    "startMs": 144352.33333333334,
+    "endMs": 144533.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "your",
+    "startMs": 144573.3333333333,
+    "endMs": 144692.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "own",
+    "startMs": 144712.33333333334,
+    "endMs": 144852.33333333334,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "food.",
+    "startMs": 144972.3333333333,
+    "endMs": 145192.3333333333,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

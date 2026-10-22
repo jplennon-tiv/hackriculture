@@ -1,0 +1,53 @@
+/* Colour-only studies of John's chosen Terracotta Feature layout.
+   Layout, typography, content and source artwork stay identical. */
+.newspaper.launch-clay[data-palette="forest"]{
+  --paper:#fcfcf8;--ink:#203a2e;--muted:#526456;--line:#cbd5cb;--accent:#315b43;
+  --launch:#28513d;--launch-soft:#eaf0e1;--launch-ink:#233e2d;
+  --feature-text:#fff8e7;--feature-detail:#f5f1dd;--feature-rule:#86a082;
+  --feature-button:#f2d98e;--feature-button-ink:#253e2b;--badge:#f2d98e;--badge-ink:#253e2b;
+  --panel-line:#bacbaa;--quiet-panel:#f0f2e9;--cta:#28513d;--cta-text:#fff8e7;
+}
+.newspaper.launch-clay[data-palette="petrol"]{
+  --paper:#fcfbf6;--ink:#243a40;--muted:#53656a;--line:#cbd5d5;--accent:#2d5863;
+  --launch:#245361;--launch-soft:#e5eff0;--launch-ink:#243e47;
+  --feature-text:#fff8e6;--feature-detail:#edf3ee;--feature-rule:#7ca1aa;
+  --feature-button:#f1d695;--feature-button-ink:#203f49;--badge:#f1d695;--badge-ink:#203f49;
+  --panel-line:#b2c9cf;--quiet-panel:#edf1ef;--cta:#245361;--cta-text:#fff8e6;
+}
+.newspaper.launch-clay[data-palette="harvest"]{
+  --paper:#fcfbf7;--ink:#30372d;--muted:#62654f;--line:#d7d5c3;--accent:#4c533a;
+  --launch:#e0bb56;--launch-soft:#f8edcd;--launch-ink:#343a29;
+  --feature-text:#303727;--feature-detail:#3f422d;--feature-rule:#9a803d;
+  --feature-button:#303b2b;--feature-button-ink:#fff8e5;--badge:#fff1c4;--badge-ink:#393d28;
+  --panel-line:#d8c38b;--quiet-panel:#f0f1e7;--cta:#303b2b;--cta-text:#fff8e5;
+}
+.newspaper.launch-clay[data-palette="plum"]{
+  --paper:#fcfaf6;--ink:#3c3037;--muted:#6b5e64;--line:#dbd0d4;--accent:#684357;
+  --launch:#653d53;--launch-soft:#f0e6ea;--launch-ink:#4c3040;
+  --feature-text:#fff6e5;--feature-detail:#f7edeb;--feature-rule:#ae879b;
+  --feature-button:#eddaa9;--feature-button-ink:#513143;--badge:#eddaa9;--badge-ink:#513143;
+  --panel-line:#d2b9c4;--quiet-panel:#f1edeb;--cta:#653d53;--cta-text:#fff6e5;
+}
+.launch-clay[data-palette] .nav{border-color:var(--ink)}
+.launch-clay[data-palette] .nav .nav-cta{background:var(--cta);color:var(--cta-text)}
+.launch-clay[data-palette] .news-edition b,
+.launch-clay[data-palette] .launch-video-copy .eyebrow,
+.launch-clay[data-palette] .news-section-heading .eyebrow,
+.launch-clay[data-palette] .news-read-link{color:var(--accent)}
+.launch-clay[data-palette] .news-section-heading{border-color:var(--accent)}
+.launch-clay[data-palette] .launch-book-feature,
+.launch-clay[data-palette] .launch-book-feature .launch-book-label{color:var(--feature-text)}
+.launch-clay[data-palette] .launch-book-feature p{color:var(--feature-detail)}
+.launch-clay[data-palette] .launch-book-feature .launch-book-label span{background:var(--badge);color:var(--badge-ink)}
+.launch-clay[data-palette] .launch-book-facts{border-color:var(--feature-rule)}
+.launch-clay[data-palette] .launch-book-feature .button{background:var(--feature-button);border-color:var(--feature-button);color:var(--feature-button-ink)}
+.launch-clay[data-palette] .launch-feature-cover .book-cover{border-left-color:#0004;box-shadow:6px 10px 18px #0004}
+.launch-clay[data-palette] .launch-form-panel,
+.launch-clay[data-palette] .news-closing{border-color:var(--panel-line)}
+.launch-clay[data-palette] .launch-email-row input{border-color:var(--muted)}
+.launch-clay[data-palette] .launch-broad-note{background:var(--quiet-panel)}
+.launch-clay[data-palette] .preview-note{background:var(--ink)}
+.launch-clay[data-palette] a:focus-visible,
+.launch-clay[data-palette] button:focus-visible,
+.launch-clay[data-palette] input:focus-visible{outline-color:var(--accent)}
+.launch-clay[data-palette] .launch-book-feature .button:focus-visible{outline-color:var(--feature-text)}

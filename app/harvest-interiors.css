@@ -1,0 +1,215 @@
+/* The established Harvest & Ink palette, applied to the existing content pages. */
+.h-interior .wrap,.h-guide-page .wrap{width:min(1280px,calc(100% - 64px))}
+.h-interior.harvest-page h1,.h-interior.harvest-page h2,.h-interior.harvest-page h3{font-weight:600}
+.h-interior .page-heading{background:var(--h-paper);color:var(--h-ink);padding:24px 0 0}
+.h-interior .page-heading>.wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:12px 36px;border-bottom:2px solid var(--h-ink);padding-bottom:22px}
+.h-interior .page-heading .eyebrow{grid-column:1/-1;color:var(--h-muted);font-size:9px;letter-spacing:.1em;margin:0}
+.h-interior .page-heading h1{font-size:clamp(34px,3.8vw,48px);line-height:1.05;max-width:750px}
+.h-interior .page-heading p{align-self:end;max-width:490px;margin:0;font-size:14px;line-height:1.65;color:var(--h-muted)}
+.h-interior .category-nav{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px 22px;margin:8px 0 0;padding-top:14px;border-top:1px solid var(--h-line)}
+.h-interior .category-nav a{padding:5px 0;border:0;font-size:11px;font-weight:600;color:var(--h-ink);text-decoration:underline;text-underline-offset:5px;min-height:30px}
+.h-interior .category-nav a:hover{background:transparent;color:#76601f}
+.h-interior>.section{padding-block:26px 38px}
+.h-interior .section h2{font-size:30px}
+.h-interior .eyebrow{font-size:9px;letter-spacing:.1em}
+.h-interior .button{background:var(--h-action);color:#fff8e5;border-radius:3px;padding:10px 14px;min-height:42px;font-size:12px;gap:10px}
+.h-interior .button:hover{background:#46513d}
+.h-interior .text-link{white-space:normal;font-size:12px;text-decoration:underline;text-underline-offset:4px}
+.h-interior .note{margin-top:24px;font-size:12px;color:var(--h-muted);line-height:1.7}
+.h-interior .follow{margin-top:30px!important;padding:24px;background:var(--h-soft);border:1px solid #d8c38b;border-radius:3px;gap:20px}
+.h-interior .follow h2{font-size:30px}
+.h-interior .follow p{font-size:13px;margin-top:6px;color:var(--h-muted)}
+.h-interior .follow .button{flex-shrink:0}
+
+/* Videos: preserve all titles, descriptions and groupings, with tighter rows. */
+.h-videos-page .catalog-group{scroll-margin-top:24px}
+.h-videos-page .catalog-group+.catalog-group{border-top:2px solid var(--h-ink);padding-top:15px;margin-top:28px}
+.h-videos-page .catalog-group h2{margin-bottom:18px;font-size:30px}
+.h-videos-page .video-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.h-videos-page .video-card{padding-bottom:16px;border-bottom:1px solid var(--h-line)}
+.h-videos-page .thumbnail{background:#eeeee3;border-radius:2px}
+.h-videos-page .play-badge{height:26px;width:26px;left:auto;top:auto;right:8px;bottom:8px;background:#fffc;color:var(--h-ink)}
+.h-videos-page .duration{left:8px;right:auto;bottom:8px;font-size:10px;padding:1px 5px;background:#30372de8;font-weight:400;letter-spacing:0}
+.h-videos-page .video-meta{font-size:9px;letter-spacing:.06em;color:var(--h-muted);margin:11px 0 6px}
+.h-videos-page .video-card h3{font-size:22px;line-height:1.16}
+.h-videos-page .video-card p{display:block;font-size:13px;line-height:1.6;margin-top:8px}
+
+/* About John: the original portrait and story, framed as a newspaper profile. */
+.h-about-page .page-heading>.wrap{grid-template-columns:minmax(0,1.65fr) minmax(0,1fr)}
+.h-about-page .about-layout{grid-template-columns:minmax(0,.7fr) minmax(0,1.5fr);gap:36px;align-items:start;max-width:1110px;margin-inline:auto}
+.h-about-page .about-portrait{border-radius:2px;max-width:330px;margin:0;box-shadow:7px 7px 0 var(--h-soft)}
+.h-about-page .about-story{max-width:none;min-width:0;margin:0}
+.h-about-page .about-story h2{font-size:31px;margin:27px 0 12px;border-top:1px solid var(--h-line);padding-top:16px}
+.h-about-page .about-story h2:first-child{margin-top:0;border-top:2px solid var(--h-ink);padding-top:12px}
+.h-about-page .about-story p{font-size:15px;line-height:1.8;margin-bottom:14px;max-width:72ch}
+.h-about-page .about-story .button{margin-top:4px}
+
+/* Growing index: keep each approved summary and its botanical illustration. */
+.h-growing-index-page .growing-category{scroll-margin-top:24px}
+.h-growing-index-page .growing-category+section{margin-top:30px}
+.h-growing-index-page .growing-category h2{border-top:2px solid var(--h-ink);padding-top:12px;margin-bottom:16px;font-size:29px}
+.h-growing-index-page .growing-category:first-child h2{border:0;padding-top:0}
+.h-growing-index-page .growing-cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px}
+.h-growing-index-page .growing-card{grid-template-columns:82px minmax(0,1fr);gap:14px;padding-block:18px;border:0;border-bottom:1px solid var(--h-line);border-radius:0;background:transparent;overflow:visible;align-items:start}
+.h-growing-index-page .growing-card:hover{box-shadow:none;background:transparent}
+.h-growing-index-page .growing-card:hover h3{text-decoration:underline;text-underline-offset:4px}
+.h-growing-index-page .growing-card-art{background:#f3efdf;border-radius:2px;padding:8px;height:130px}
+.h-growing-index-page .growing-card-art img{height:100%;width:100%;object-fit:contain;min-height:0}
+.h-growing-index-page .growing-card-copy{padding:0;min-width:0}
+.h-growing-index-page .growing-card h3{font-size:25px;line-height:1.1;overflow-wrap:break-word}
+.h-growing-index-page .growing-card p{margin-top:8px;font-size:13px;line-height:1.65}
+.h-growing-index-page .growing-card-link{font-size:11px;gap:7px;margin-top:10px;color:var(--h-action)}
+.h-growing-index-page .growing-card-link svg{width:14px;height:14px}
+.h-growing-index-page .growing-draft{font-size:10px;background:var(--h-soft);padding:2px 5px}
+
+/* Reading pages retain the calendar, contents, source links and print controls. */
+@media screen{
+ .h-guide-page{--leaf:var(--h-action);--leaf-soft:var(--h-soft);--crop-soft:#f8edcd;--guide-paper:var(--h-paper);--border:var(--h-line);--foreground:var(--h-ink);--muted-foreground:var(--h-muted);--primary:var(--h-action);--background:var(--h-paper)}
+ .h-guide-page .guide-hero{background:var(--h-paper);border-bottom:1px solid var(--h-line)}
+ .h-guide-page .guide-hero-grid{grid-template-columns:minmax(0,1.6fr) minmax(220px,.8fr);gap:36px;padding-block:20px 26px;align-items:center}
+ .h-guide-page .guide-back{font-size:11px;margin-bottom:16px;gap:7px}
+ .h-guide-page .guide-hero .eyebrow{font-size:9px;color:var(--h-muted);margin-bottom:10px;letter-spacing:.1em}
+ .h-guide-page .guide-hero .eyebrow svg{width:14px;height:14px}
+ .h-guide-page .guide-hero h1{font-size:clamp(38px,4.2vw,57px);font-weight:600;line-height:1.08}
+ .h-guide-page .guide-hero h1 em{color:var(--h-ink)}
+ .h-guide-page .guide-hero-copy>p{font-size:15px;line-height:1.7;margin-top:16px;max-width:65ch}
+ .h-guide-page .guide-hero-actions{gap:24px;margin-top:18px}
+ .h-guide-page .guide-hero-actions .button{background:var(--h-action);color:#fff8e5;border-radius:3px;min-height:42px;padding:10px 14px;font-size:12px}
+ .h-guide-page .guide-hero-actions .button:hover{background:#46513d}
+ .h-guide-page .guide-print{font-size:12px;padding:10px 0}
+ .h-guide-page .guide-art{height:270px;min-width:0;overflow:hidden;background:radial-gradient(ellipse at center,#f8edcd 0%,#fcf8ed 55%,transparent 72%)}
+ .h-guide-page .guide-art img{height:100%;width:100%;min-height:0;min-width:0;object-fit:contain;filter:none}
+ .h-guide-page .guide-facts dl{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px;padding-block:18px}
+ .h-guide-page .guide-facts dl>div:nth-child(n){border-top:3px solid var(--h-gold);padding-top:9px;min-width:0}
+ .h-guide-page .guide-facts dt{font-size:11px;margin-bottom:4px}
+ .h-guide-page .guide-facts dd{font-size:14px;line-height:1.5}
+ .h-guide-page .guide-body{grid-template-columns:220px minmax(0,1fr);gap:36px;padding-block:28px 45px}
+ .h-guide-page .guide-nav-heading{font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:600;border-top:2px solid var(--h-ink);padding-top:10px;margin-bottom:10px;line-height:1.2}
+ .h-guide-page .guide-nav ol{border-color:var(--h-line)}
+ .h-guide-page .guide-nav a{font-size:12px;padding:9px 10px;gap:9px;border-radius:0}
+ .h-guide-page .guide-nav a:hover{background:#f3efdf}
+ .h-guide-page .guide-nav a[aria-current]{background:var(--h-soft);border-left-color:#927629;color:var(--h-ink)}
+ .h-guide-page .guide-nav-number{color:#7b6426;font-size:11px;min-width:17px}
+ .h-guide-page .guide-content{max-width:940px}
+ .h-guide-page .guide-content h2{font-size:32px;font-weight:600;line-height:1.15}
+ .h-guide-page .guide-content .eyebrow{font-size:9px;color:var(--h-muted);margin-bottom:7px;letter-spacing:.1em}
+ .h-guide-page .guide-calendar{padding:20px;border:1px solid var(--h-line);border-top:3px solid var(--h-gold);border-radius:2px;background:#fffdf6}
+ .h-guide-page .guide-calendar-intro{font-size:13px;margin-top:10px;line-height:1.65}
+ .h-guide-page .calendar-row{padding-top:16px;margin-top:16px;border-color:var(--h-line)}
+ .h-guide-page .calendar-label{gap:6px 12px}
+ .h-guide-page .calendar-label h3{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:700;letter-spacing:0}
+ .h-guide-page .calendar-label span{font-size:11px}
+ .h-guide-page .calendar-months{gap:3px;margin-block:9px}
+ .h-guide-page .calendar-months li{background:#f0eee4;color:var(--h-muted);font-size:11px;min-height:37px;padding:5px 0 3px;border-radius:2px}
+ .h-guide-page .calendar-months li.active{background:var(--h-action);color:#fff8e5;border-color:var(--h-action)}
+ .h-guide-page .calendar-summer-harvest .calendar-months li.active{background:var(--h-gold);color:var(--h-ink);border-color:#94772d}
+ .h-guide-page .calendar-stored-crop-check .calendar-months li.active{background:#62654f;border-color:#62654f}
+ .h-guide-page .month-dot{color:inherit}
+ .h-guide-page .calendar-action{font-size:13px;line-height:1.6}
+ .h-guide-page .calendar-condition{font-size:13px;line-height:1.65}
+ .h-guide-page .guide-stage{padding-top:26px;margin-top:8px}
+ .h-guide-page .guide-section-title{gap:15px;margin-bottom:14px}
+ .h-guide-page .guide-section-title>span{width:auto;height:auto;min-width:29px;background:none!important;color:#7b6426!important;border-radius:0;font:italic 22px/1.2 Georgia,serif}
+ .h-guide-page .guide-reading section p{font-size:16px;line-height:1.8;margin-top:14px;max-width:75ch;color:#414637}
+ .h-guide-page .guide-reading section+section{margin-top:25px;border-color:var(--h-line)}
+ .h-guide-page .guide-next{margin-top:16px;font-size:12px;color:var(--h-action)}
+ .h-guide-page .guide-stage-problems{padding:22px;background:var(--h-soft);border-top:3px solid var(--h-gold)!important;border-radius:2px}
+ .h-guide-page .guide-sources{margin-top:28px;border-top:2px solid var(--h-ink);padding-top:18px}
+ .h-guide-page .guide-sources h2{font-size:28px}
+ .h-guide-page .guide-sources p{font-size:13px;margin-top:10px}
+ .h-guide-page .guide-sources>a{font-size:13px;margin-top:11px;line-height:1.5;overflow-wrap:anywhere}
+ .h-guide-page .guide-sources>a svg{flex-shrink:0}
+ .h-guide-page .guide-sources .guide-review-date{font-size:11px}
+ .h-guide-page .guide-top{font-size:12px;margin-top:20px}
+}
+
+@media screen and (max-width:1100px){
+ .h-videos-page .video-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .h-growing-index-page .growing-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .h-growing-index-page .growing-card{grid-template-columns:88px minmax(0,1fr)}
+ .h-guide-page .guide-body{grid-template-columns:190px minmax(0,1fr);gap:25px}
+ .h-guide-page .guide-hero-grid{gap:24px}.h-guide-page .guide-art{height:245px}
+}
+@media screen and (max-width:800px){
+ .h-interior .page-heading>.wrap{grid-template-columns:1fr;gap:12px}
+ .h-interior .page-heading p{max-width:640px}
+ .h-videos-page .video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .h-about-page .about-layout{grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:24px}
+ .h-about-page .about-story h2{font-size:27px}.h-about-page .about-story p{font-size:14px;line-height:1.75}
+ .h-guide-page .guide-hero-grid{grid-template-columns:minmax(0,1fr) 170px;gap:20px}
+ .h-guide-page .guide-art{height:210px}
+ .h-guide-page .guide-facts dl{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .h-guide-page .guide-facts dl>div:first-child{grid-column:span 2}
+ .h-guide-page .guide-body{grid-template-columns:1fr;gap:20px;padding-top:0}
+ .h-guide-page .guide-nav{margin-inline:0;padding:7px 0;background:var(--h-paper);border-color:var(--h-line)}
+ .h-guide-page .guide-nav-toggle{padding:8px 0;font-size:13px}
+ .h-guide-page .guide-nav-toggle small{font-size:10px}
+ .h-guide-page .guide-nav ol{margin:5px 0 7px}
+ .h-guide-page .guide-nav a{font-size:13px;min-height:42px}
+}
+@media screen and (max-width:600px){
+ .h-interior .wrap,.h-guide-page .wrap{width:calc(100% - 32px)}
+ .h-interior .page-heading{padding-top:18px}
+ .h-interior .page-heading>.wrap{padding-bottom:17px;gap:10px}
+ .h-interior .page-heading h1{font-size:35px}
+ .h-interior .page-heading p{font-size:13px;line-height:1.65}
+ .h-interior .category-nav{gap:5px 17px;padding-top:10px;margin-top:4px}
+ .h-interior .category-nav a{font-size:11px;min-height:36px;display:flex;align-items:center}
+ .h-interior>.section{padding-block:20px 28px}
+ .h-interior .follow{padding:20px;gap:16px;margin-top:24px!important}
+ .h-interior .follow h2{font-size:27px}
+ .h-interior .button{min-height:44px}
+ .h-about-page .about-layout{grid-template-columns:1fr;gap:25px}
+ .h-about-page .about-portrait{width:100%;max-width:260px;margin-inline:auto}
+ .h-about-page .about-story h2{font-size:29px}
+ .h-about-page .about-story p{font-size:15px}
+ .h-growing-index-page .growing-cards{grid-template-columns:1fr;gap:0}
+ .h-growing-index-page .growing-category+section{margin-top:24px}
+ .h-growing-index-page .growing-card{grid-template-columns:80px minmax(0,1fr);gap:15px;padding-block:16px}
+ .h-growing-index-page .growing-card-art{height:125px}
+ .h-growing-index-page .growing-card h3{font-size:25px}
+ .h-growing-index-page .growing-card-link{min-height:32px}
+ .h-guide-page .guide-facts dl{gap:15px;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .h-guide-page .guide-facts dl>div:first-child{grid-column:1/-1}
+ .h-guide-page .guide-facts dd{font-size:13px}
+ .h-guide-page .guide-content h2{font-size:29px}
+ .h-guide-page .guide-calendar{padding:17px 12px}
+ .h-guide-page .calendar-months{gap:2px}
+ .h-guide-page .calendar-months li{font-size:10px}
+ .h-guide-page .guide-stage-problems{padding:18px 15px}
+ .h-guide-page .guide-reading section p{font-size:15px}
+ .h-guide-page .guide-sources>a{align-items:baseline}
+}
+@media screen and (max-width:520px){
+ .h-videos-page .video-grid{grid-template-columns:1fr;gap:16px}
+ .h-videos-page .video-card{padding-bottom:16px}
+ .h-videos-page .video-card>a{display:grid;grid-template-columns:116px minmax(0,1fr);gap:5px 13px}
+ .h-videos-page .thumbnail{grid-column:1;grid-row:1/span 3;align-self:start}
+ .h-videos-page .video-meta{grid-column:2;font-size:8px;margin:0}
+ .h-videos-page .video-card h3{grid-column:2;font-size:21px}
+ .h-videos-page .video-card p{grid-column:2;font-size:12px;line-height:1.6;margin-top:3px}
+ .h-videos-page .play-badge{width:20px;height:20px;bottom:5px;right:5px}
+ .h-videos-page .play-badge svg{width:10px;height:10px}
+ .h-videos-page .duration{font-size:9px;left:5px;bottom:5px}
+ .h-guide-page .guide-hero-grid{grid-template-columns:minmax(0,1fr) 100px;gap:10px;padding-block:18px 21px;align-items:start}
+ .h-guide-page .guide-back{margin-bottom:4px}
+ .h-guide-page .guide-hero .eyebrow{grid-row:2;align-self:start;margin:8px 0 0;font-size:8px}
+ .h-guide-page .guide-hero h1{grid-row:2;padding-top:30px;font-size:36px}
+ .h-guide-page .guide-art{grid-row:2;height:155px}
+ .h-guide-page .guide-hero-copy>p{margin-top:8px;font-size:14px}
+ .h-guide-page .guide-hero-actions{margin-top:10px;gap:18px}
+ .h-guide-page .guide-hero-actions .button,.h-guide-page .guide-print{min-height:44px}
+}
+@media screen and (max-width:370px){
+ .h-interior .wrap,.h-guide-page .wrap{width:calc(100% - 24px)}
+ .h-videos-page .video-card>a{grid-template-columns:96px minmax(0,1fr);gap:5px 11px}
+ .h-videos-page .video-card h3{font-size:20px}
+ .h-guide-page .guide-hero-grid{grid-template-columns:minmax(0,1fr) 80px}
+ .h-guide-page .guide-hero h1{font-size:32px}
+ .h-guide-page .guide-art{height:135px}
+ .h-guide-page .calendar-months li{font-size:9px}
+}
+@media print{
+ .h-header,.h-utility,.h-footer{display:none!important}
+ .h-guide-page .wrap{width:100%;max-width:none}
+}

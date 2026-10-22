@@ -1,33 +1,29 @@
 import assert from "node:assert/strict";
+import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
-const developmentPreviewMeta =
-  /<meta(?=[^>]*\bname=["']codex-preview["'])(?=[^>]*\bcontent=["']development["'])[^>]*>/i;
+const output = new URL("../dist/client/", import.meta.url);
 
-test("renders development preview metadata", async () => {
-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
-  const { default: worker } = await import(workerUrl.href);
-
-  const response = await worker.fetch(
-    new Request("http://localhost/", {
-      headers: { accept: "text/html" },
-    }),
-    {
-      ASSETS: {
-        fetch: async () => new Response("Not found", { status: 404 }),
-      },
-    },
-    {
-      waitUntil() {},
-      passThroughOnException() {},
-    },
-  );
-
-  assert.equal(response.status, 200);
-  assert.match(
-    response.headers.get("content-type") ?? "",
-    /^text\/html\b/i,
-  );
-  assert.match(await response.text(), developmentPreviewMeta);
-});
+for (const [route, title] of [
+  ["index.html", "Hackriculture"],
+  ["book/index.html", "The Vegetable Guru"],
+  ["book/preview/index.html", "Take a look inside"],
+  ["videos/index.html", "Videos"],
+  ["about/index.html", "About John"],
+  ["calendar/index.html", "Self-sufficiency calendar"],
+  ["growing/index.html", "Vegetable growing guides"],
+]) {
+  test(`static export contains ${route} and its local assets`, async () => {
+    const html = await readFile(new URL(route, output), "utf8");
+    assert.match(html, /<html/);
+    assert.ok(html.includes(title));
+    assert.match(html, /<main/);
+    for (const match of html.matchAll(/<(?:img|script|link)\b[^>]*?\b(?:src|href)="([^"]+)"/g)) {
+      const url = match[1];
+      assert.ok(!/^https?:/.test(url), `Unexpected remote asset: ${url}`);
+      if (url.startsWith("/")) {
+        await access(new URL(url.slice(1).split(/[?#]/)[0], output));
+      }
+    }
+  });
+}

@@ -19,3 +19,16 @@ export const preview = {
 };
 export type BookPreview = typeof preview;
 export const previewPageCount = preview.frames.reduce((total, frame) => total + frame.pages.length, 0);
+
+export function getPreviewSpread(id: string) {
+  const frame = preview.frames.find(item => item.id === id);
+  if (!frame || frame.pages.length !== 2) throw new Error(`Missing two-page book preview: ${id}`);
+  return {
+    caption: `${frame.title} · Pages ${frame.pages[0].folio}–${frame.pages[1].folio}`,
+    previewFolio: frame.pages[0].folio,
+    pages: frame.pages.map(page => ({
+      src: page.src, alt: `${frame.title}, page ${page.folio}`,
+      width: page.width, height: page.height,
+    })),
+  };
+}

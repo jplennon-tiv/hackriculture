@@ -12,7 +12,7 @@ test('the selected proof pages retain whole facing spreads and stop after the fi
   const growing = config.groups.find(group=>group.id==='growing').spreads;
   assert.equal(growing.length,24);
   assert.deepEqual(growing.flatMap(spread=>spread.pages),Array.from({length:48},(_,index)=>index+10));
-  assert.deepEqual(config.groups.find(group=>group.id==='later').spreads.flatMap(spread=>spread.pages),[104,105,148,149,162,163]);
+  assert.deepEqual(config.groups.find(group=>group.id==='later').spreads.flatMap(spread=>spread.pages),[132,133,148,149,162,163]);
   assert.equal(frames.flatMap(frame=>frame.pages).length,59);
   const reversed=structuredClone(config);reversed.groups[1].spreads[0].pages=[11,10];
   assert.equal(bookPreviewSchema.safeParse(reversed).success,false);
@@ -44,14 +44,29 @@ test('deep links resolve either page of a spread and cannot expose omitted pages
     const result=findPreviewPage(frames,page.folio);
     assert.equal(frames[result.frame].pages[result.side].folio,page.folio);
   }
-  for(const page of [0,2,3,6,8,58,103,106,168,999]) assert.equal(findPreviewPage(frames,page),null);
+  for(const page of [0,2,3,6,8,58,103,104,105,106,131,134,168,999]) assert.equal(findPreviewPage(frames,page),null);
   const lastCrop=findPreviewPage(frames,57);
-  assert.deepEqual(movePreview(frames,lastCrop,false,1),findPreviewPage(frames,104));
+  assert.deepEqual(movePreview(frames,lastCrop,false,1),findPreviewPage(frames,132));
 });
 
-test('homepage and book-page sample cards point to included real folios', async () => {
+test('homepage and three book sections use included, different spreads with working jump targets', async () => {
   const launch=JSON.parse(await readFile(new URL('../../hackriculture-data/website/book-launch.json',import.meta.url)));
   for(const sample of launch.samples) assert.ok(findPreviewPage(frames,sample.previewFolio));
+  const homeFolios=new Set(launch.samples.flatMap(sample=>[sample.previewFolio,sample.previewFolio+1]));
+  const html=await readFile(new URL('../dist/client/book/index.html',import.meta.url),'utf8');
+  for(const part of launch.book.contents) {
+    const spread=frames.find(frame=>frame.id===part.preview.spreadId);
+    assert.ok(spread, `Missing preview spread for ${part.id}`);
+    assert.equal(spread.pages.length,2);
+    assert.ok(spread.pages.every(page=>!homeFolios.has(page.folio)));
+    assert.ok(html.includes(`href="#sample-${part.id}"`));
+    assert.ok(html.includes(`id="sample-${part.id}"`));
+    for(const page of spread.pages) assert.ok(html.includes(previewAsset(page.folio)));
+    await access(new URL('../public'+part.preview.illustration.src,import.meta.url));
+  }
+  const panels=html.slice(html.indexOf('id="samples"'),html.indexOf('class="h-faqs"'));
+  assert.equal((panels.match(/aria-haspopup="dialog"/g)||[]).length,3);
+  assert.equal((panels.match(/href="\/book\/preview\/"/g)||[]).length,1);
 });
 
 test('the static export includes only selected preview assets and an ungated fallback', async () => {

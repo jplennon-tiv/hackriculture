@@ -46,9 +46,12 @@ npm run build
 
 - `../hackriculture-data/website/site.json`: identity, channel links, photographs and topic names.
 - `../hackriculture-data/website/videos.json`: verified YouTube titles, URLs, thumbnails, durations, topics and optional short summaries.
-- `../hackriculture-data/website/book-launch.json`: book copy, sample-image metadata, eight selected homepage video IDs (five in the sidebar, three below) and the public EmailOctopus form settings. Validated by `lib/book-launch-schema.mjs`; edit through the shared contract's guarded transaction process.
+- `../hackriculture-data/website/book-launch.json`: book copy, sample-image metadata, eight selected homepage video IDs (five in the sidebar, three below), introduction-video presentation and the public EmailOctopus form settings. `home.broad.video` supplies the introduction card's shorter title, local thumbnail and duration; its destination is `site.introVideoUrl`. Validated by `lib/book-launch-schema.mjs`; edit through the shared contract's guarded transaction process.
 - `app/page.tsx`: homepage.
+- `components/site/home-book-details.tsx`: full-width book preview and author panel, with a decorative spiral-paper background. Draft author copy lives in shared `book-launch.json` at `home.bookAuthor`; specifications reuse its existing `book.format` values.
 - `app/book/page.tsx`: book overview, sample reader, buying questions and launch form.
+- `components/site/book-contents.tsx`: real contents-page spread and three illustrated section summaries; uses existing shared copy and selected preview folios. Artwork sources and the new Troubles illustration prompt are recorded in `assets/book/sections/README.md`.
+- `components/site/book-section-previews.tsx`: alternating crop, Troubles and Techniques panels, with three different spreads from the homepage. `book.contents[].id` supplies jump targets; its nested `preview` holds the spread selection, explanation and illustration. `getPreviewSpread` resolves images and folios from the existing reader selection.
 - `app/book/preview/page.tsx`: the expanded 59-page book reader, with the first 24 crop guides and three later spreads. See [preview handover](docs/book-launch-planning/06-book-preview.md).
 - `../hackriculture-data/website/book-preview.json`: proof fingerprint, selected folios and reader copy, validated by `lib/book-preview-schema.mjs`. The source PDF stays outside the public site.
 - `app/calendar/page.tsx`: Self-sufficiency calendar, with all 12 months, a current-month lead and weekly task notes. The homepage uses the same tasks in its current-week widget.

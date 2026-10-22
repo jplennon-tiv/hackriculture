@@ -54,8 +54,8 @@
     55,
     56,
     57,
-    104,
-    105,
+    132,
+    133,
     148,
     149,
     162,
@@ -859,34 +859,34 @@
       "sha256": "dc4fc24e1757762a387e48d14e7e740227ff1a82c4017b08663a0a85e3ac3bd1"
     },
     {
-      "path": "/images/book/preview/page-104-large.webp",
-      "bytes": 298498,
-      "sha256": "c370b31b617d13a6ecdaa5fd59a6d9e3cdc673eb8d1ee416de0b61318d8d73d1"
+      "path": "/images/book/preview/page-132-large.webp",
+      "bytes": 408970,
+      "sha256": "ec168e98fefd804377a83a2e8655154098b2c7c939c3eb0a92783b6a5e16aa35"
     },
     {
-      "path": "/images/book/preview/page-104-read.webp",
-      "bytes": 109428,
-      "sha256": "8fd37fc1135a4c0aed332b680aa7b25ab0f11c696d7f299824ca315694cceaf2"
+      "path": "/images/book/preview/page-132-read.webp",
+      "bytes": 147580,
+      "sha256": "7d9e8e0d7969e8343d2757d712597148f8c09e058a1240d434ae0e4fd66d2020"
     },
     {
-      "path": "/images/book/preview/page-104-thumb.webp",
-      "bytes": 6128,
-      "sha256": "fea3d91c1e71e60cb6c4179d155781f7d21d68449274ca12827514c5be31e9c4"
+      "path": "/images/book/preview/page-132-thumb.webp",
+      "bytes": 8650,
+      "sha256": "de05391996df8d59570bbeb92d229db972af7f1d958a65e4cf8d91be0c0d4992"
     },
     {
-      "path": "/images/book/preview/page-105-large.webp",
-      "bytes": 305714,
-      "sha256": "1a6c2464e3ccd3fe68175d1c9f2d1dc4f233bafd44f424dc7b8204568e70b9f8"
+      "path": "/images/book/preview/page-133-large.webp",
+      "bytes": 382840,
+      "sha256": "43c642372568ac41697f6771e81982b5671ac706f5d2df16d412d83baa16e562"
     },
     {
-      "path": "/images/book/preview/page-105-read.webp",
-      "bytes": 114426,
-      "sha256": "020059a8776dcf8111ef701b795815f345792dcb058b5f0817adbafdd278af2c"
+      "path": "/images/book/preview/page-133-read.webp",
+      "bytes": 138320,
+      "sha256": "1f234044b5ebf67146c27666363d9a9f13a5c78ebf7676a9de2c0bed0384232f"
     },
     {
-      "path": "/images/book/preview/page-105-thumb.webp",
-      "bytes": 6652,
-      "sha256": "9d707b546980a68ec4328c19f69402ffc8ca83008b6e6d1f96251096d074c4f9"
+      "path": "/images/book/preview/page-133-thumb.webp",
+      "bytes": 8202,
+      "sha256": "b0659fb383d9c5bc88a56fc19db5ef42b2b8b84c4d4427aa9a59000faed53144"
     },
     {
       "path": "/images/book/preview/page-148-large.webp",
@@ -949,6 +949,6 @@
       "sha256": "42a67aed859b4f9943a0e1fa9ada5b07082cc98e8ec88d0b38b967a76b315b7f"
     }
   ],
-  "imageBytes": 31085704,
+  "imageBytes": 31339420,
   "trim": "3 mm bleed removed; native printed layout retained"
 }

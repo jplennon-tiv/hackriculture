@@ -22,9 +22,10 @@ test('both launch pages export truthful prelaunch content and readable sample ac
     const html = await readFile(new URL('../dist/client/' + route, import.meta.url), 'utf8');
     assert.match(html, /Coming soon/);
     assert.match(html, /id="launch"/);
-    assert.match(html, /How your email address is used/);
+    assert.match(html, /<summary>Privacy<\/summary>/);
+    assert.match(html, /href="https:\/\/emailoctopus.com\/legal\/privacy"/);
     assert.match(html, /Please enable JavaScript/);
-    assert.match(html, /Read Beetroot/);
+    assert.match(html, route === 'index.html' ? /Enlarge Beetroot · Pages 12–13/ : /Enlarge Carrot · Pages 14–15/);
     assert.match(html, /href="\/book\/preview\//);
     assert.doesNotMatch(html, /Buy now|Pre-order now|Sign-up opens soon/);
     assert.equal((html.match(/<h1\b/g) || []).length, 1);

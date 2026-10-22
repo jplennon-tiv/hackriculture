@@ -1,12 +1,10 @@
 import Link from 'next/link';
 import { book } from '@/lib/book-launch';
-import { getPreviewSpread, previewPageCount } from '@/lib/book-preview';
+import { getPreviewSpread } from '@/lib/book-preview';
 import { BookSampleEnlargement } from './book-sample-enlargement';
 
 export function BookSectionPreviews() {
-  return <section className="h-book-samples" id="samples" aria-labelledby="samples-title">
-    <div className="h-section-heading"><h2 id="samples-title">Open the book.</h2><span>{previewPageCount} real pages to explore</span></div>
-    <p className="h-section-intro">{book.book.previewIntroduction}</p>
+  return <section className="h-book-samples" id="samples" aria-label="Book sample pages">
     <div className="h-book-section-previews">
       {book.book.contents.map((part, index) => {
         const sample = getPreviewSpread(part.preview.spreadId);

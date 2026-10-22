@@ -2,13 +2,13 @@
 
 import { useEffect, useRef, useState } from 'react';
 import type { BookSample } from '@/lib/book-launch';
-import { previewAsset } from '@/lib/book-preview-navigation.mjs';
+import { previewImageUrl } from '@/lib/book-preview-navigation.mjs';
 
 type BookSpread = Pick<BookSample, 'caption' | 'previewFolio' | 'pages'>;
 
 function OpenSpread({sample, enlarged = false}: {sample:BookSpread; enlarged?:boolean}) {
   return <span className="h-open-book">{sample.pages.map((page, index) => <span className={`h-open-page h-open-page-${index === 0 ? 'left' : 'right'}`} key={page.src}>
-    {enlarged ? <img src={previewAsset(sample.previewFolio + index, 'large')} alt={page.alt} width="1800" height="2335" decoding="async"/> : <img {...page} loading="lazy"/>}
+    {enlarged ? <img src={previewImageUrl(sample.previewFolio + index, 'large')} alt={page.alt} width="1800" height="2335" decoding="async"/> : <img {...page} loading="lazy"/>}
   </span>)}</span>;
 }
 

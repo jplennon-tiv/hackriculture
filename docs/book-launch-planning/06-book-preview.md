@@ -267,3 +267,28 @@ The whole contents panel now uses a pale olive background (`--h-olive-soft`,
 from the white preview panels below. No copy or imagery changed. Build,
 TypeScript and 15 focused checks passed; desktop and phone visual checks found
 no overflow. Screenshot: `docs/prelaunch-designs/screenshots/book-olive-contents.png`.
+
+## Chrome image refresh — 22 October
+
+John reported missing Potato Troubles pages in Chrome at `/book/#sample-growing`.
+Inspection of his tab confirmed both images had failed (`naturalWidth: 0`), even
+after a normal reload; the same files returned HTTP 200, decoded in a separate
+Chrome image tab, and worked in the in-app browser. Versioned image URLs restored
+both pages in the affected tab. The exact cause of the original failed requests
+was not captured.
+
+`previewImageUrl` in `lib/book-preview-navigation.mjs` adds a stable render-set
+version for displayed images; `previewAsset` retains the physical file path for
+asset checks. The reader, sample spreads and enlarged images use the versioned
+URLs. Bump that version when replacing the public render set. No image bytes or
+shared JSON changed. The affected Chrome tab now loads both 900 px sample pages
+and both 1800 px enlargements. Build, TypeScript and 15 relevant tests passed.
+Screenshot: `docs/prelaunch-designs/screenshots/book-potato-chrome-fixed.png`.
+
+John subsequently removed the “Open the book.” heading, “59 real pages to
+explore” count and introductory paragraph above the three sample panels. The
+`#samples` anchor remains, with an accessible “Book sample pages” region label;
+all three panels, enlargements and the single full-preview button are retained.
+Shared introductory copy remains stored but is no longer rendered here. Build,
+TypeScript and 15 focused checks passed. Screenshot:
+`docs/prelaunch-designs/screenshots/book-no-preview-intro.png`.

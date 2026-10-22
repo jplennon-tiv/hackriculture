@@ -161,7 +161,7 @@
 .h-contents-title-link{text-decoration:underline;text-decoration-thickness:1px;text-decoration-color:#b7b9aa;text-underline-offset:4px}
 .h-contents-title-link:hover{color:#9d3621;text-decoration-color:currentColor}
 .h-contents-title-link:focus-visible{outline:2px solid #9d3621;outline-offset:5px}
-.h-book-samples{margin-top:30px}.h-book-samples .h-section-heading h2{font-size:33px}
+.h-book-samples{margin-top:30px}
 .h-book-section-preview{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:center;gap:35px;padding:24px 0 28px;border-bottom:1px solid var(--h-line);scroll-margin-top:24px}
 .h-book-section-preview:nth-child(even){grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}
 .h-book-section-preview:nth-child(even) .h-section-spread{grid-column:2;grid-row:1}

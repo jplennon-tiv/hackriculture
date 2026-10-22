@@ -1,6 +1,6 @@
 import content from '@shared/website/book-preview.json';
 import { bookPreviewSchema } from './book-preview-schema.mjs';
-import { previewAsset } from './book-preview-navigation.mjs';
+import { previewImageUrl } from './book-preview-navigation.mjs';
 
 const checked = bookPreviewSchema.parse(content);
 // Only the selected public pages reach the client, never the source PDF or its path.
@@ -11,7 +11,7 @@ export const preview = {
   frames: checked.groups.flatMap(group => group.spreads.map(spread => ({
     id:spread.id, title:spread.title, group:group.id,
     pages:spread.pages.map(folio => ({
-      folio, src:previewAsset(folio), large:previewAsset(folio, 'large'), thumb:previewAsset(folio, 'thumb'),
+      folio, src:previewImageUrl(folio), large:previewImageUrl(folio, 'large'), thumb:previewImageUrl(folio, 'thumb'),
       text:`/book-preview-text/page-${String(folio).padStart(3, '0')}.txt`,
       width:900, height:1168,
     })),

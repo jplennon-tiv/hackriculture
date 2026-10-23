@@ -9,12 +9,11 @@ export function HomeBookDetails() {
       <div className="h-book-paper-print"><img {...book.samples[0].pages[0]} alt="" loading="lazy"/></div>
       <div className="h-book-spiral"/>
     </div>
-    <header className="h-book-details-heading"><h2 id="home-samples-title">A closer look at {book.title}</h2><span className="h-book-details-status">{book.availability.label}</span></header>
+    <header className="h-book-details-heading"><h2 id="home-samples-title">A closer look at {book.title}</h2><span className="h-book-details-status">{book.availability.label}</span><Link className="h-button h-preview-entry" href="/book/preview/#page=1">Browse the book preview ↗</Link></header>
     <div className="h-book-details-columns">
       <div className="h-book-details-preview">
-        <p className="h-section-intro">Explore the real book: the opening pages, the first 24 crop guides and selected pages from later chapters. Select either spread for a closer look.</p>
+        <p className="h-section-intro">Explore the real book: the opening pages, five complete vegetable guides and selected pages from later chapters. Select any spread for a closer look.</p>
         <BookSamples samples={book.samples} compact/>
-        <Link className="h-button h-preview-entry" href="/book/preview/#page=1">Browse the book preview ↗</Link>
       </div>
       <section className="h-book-author" aria-labelledby="book-author-title">
         <h3 id="book-author-title">{book.home.bookAuthor.heading}</h3>
@@ -22,7 +21,7 @@ export function HomeBookDetails() {
           <img src={site.aboutImage} alt="John beside his vegetables at the allotment" width="450" height="640" loading="lazy"/>
           <div><strong>{book.author}</strong><span>Author of {book.title}</span></div>
         </div>
-        {book.home.bookAuthor.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
+        <blockquote className="h-book-author-quote">{book.home.bookAuthor.paragraphs.map((paragraph,index) => <p key={paragraph}>{index === 0 && '“'}{paragraph}{index === book.home.bookAuthor.paragraphs.length-1 && '”'}</p>)}</blockquote>
       </section>
     </div>
     <dl className="h-book-details-facts" aria-label="Book details">

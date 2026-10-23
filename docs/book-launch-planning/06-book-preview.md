@@ -7,21 +7,24 @@ This implementation is local and ready for his review, not deployed.
 ## What to review
 
 Open <http://127.0.0.1:5175/book/preview/>. The homepage and book-page feature
-buttons now open this reader. The existing beetroot and rotation sample cards
-link straight to their actual folios, including across a fresh page load.
+buttons open this reader at its title page. The homepage's main Aubergine preview
+and four lower sample cards open image-only enlargements; the lower panel's
+single browse button is in its title bar.
 
-- 59 selected pages in 31 selections, starting with the beetroot spread.
-- Opening folios 1, 4–5, 7 and 9; then all 24 complete crop spreads at 10–57,
-  ending with lettuce. This completes the spread at the one-third boundary.
-- Later selections: Beetroot Troubles 104–105, Rotation & planning 148–149,
-  Greenhouse growing 162–163.
+- 23 selected pages in 13 selections, starting with the title page.
+- Opening folios 1, 4–5, 7 and 9; then five complete vegetable guides:
+  Jerusalem artichoke 10–11, Beetroot 12–13, Carrot 14–15, Cabbage 36–37
+  and Aubergine 68–69. John requested this shorter selection on 23 October.
+- Later selections: Carrot and Parsnip Troubles 112–113, Potato Troubles 132–133,
+  Rotation & planning 148–149 and Greenhouse growing 162–163.
 - Intentional blanks and unfinished publication-details page 2 are omitted;
   this is disclosed below the reader. Printed page numbers are retained.
-- Desktop facing pages, optional single-page mode, phone single-page turning,
-  thumbnail contents, keyboard arrows, direct `#page=148` links and zoom.
-- PDF-extracted text is available in a disclosure. It retains the source text;
+- One continuous column of large printed pages on desktop and phone, a slim
+  sticky header and a contents drawer opened only on request. Direct `#page=148`
+  links still work. Click a page to enlarge it; Escape or Close returns to reading.
+- PDF-extracted text for the current page is linked from Contents. It retains the source text;
   decorative headings and table extraction can be imperfect, as the UI explains.
-  No-JavaScript visitors get direct links to all selected full-size page images.
+  No-JavaScript visitors can scroll the pages and get direct full-size image links.
 - A clear return to the book and launch sign-up at the end. Reading is ungated;
   the reader itself loads no email-provider script or third-party viewer.
 
@@ -35,8 +38,8 @@ layout, physical book file, or gardening record was edited.
 `scripts/prepare-book-preview.py` reads the selected folios, checks the source
 fingerprint, uses Poppler to render the native PDF, removes its 3 mm bleed and
 creates 900 px reading images, 1800 px enlarged images and 200 px thumbnails.
-Pillow produces WebP derivatives. The total image set is about 29.6 MiB; the
-reader displays only the current page/spread and small contents thumbnails.
+Pillow produces WebP derivatives. The current image set is about 11.5 MiB; the
+reader lazy-loads page images as visitors scroll.
 The 442 MiB source PDF is never copied into `public` or the exported website.
 
 The optional authoring command needs Python with Pillow, Node and Poppler;
@@ -292,3 +295,149 @@ all three panels, enlargements and the single full-preview button are retained.
 Shared introductory copy remains stored but is no longer rendered here. Build,
 TypeScript and 15 focused checks passed. Screenshot:
 `docs/prelaunch-designs/screenshots/book-no-preview-intro.png`.
+
+## John's author note and edition details — 23 October
+
+Replaced `home.bookAuthor.paragraphs` in shared `website/book-launch.json` with
+John's three supplied paragraphs verbatim. The shared `book.format` tile now
+reads “Two editions” / “Imperial edition / Metric edition”, updating the homepage
+facts and the book page's availability panel together. No other fields, layout,
+photograph or sample images changed.
+
+Guarded transaction and exact preceding JSON bytes:
+`../../../hackriculture-data/backups/admin/2026-10-23T14-35-18.470Z-bf3e7392-8153-46c4-b4bb-55f9af06ef7c/transaction.json`.
+Build, TypeScript and 15 focused checks passed. Chrome shows all three paragraphs
+and both editions without overflow. Screenshot:
+`docs/prelaunch-designs/screenshots/home-author-note-two-editions.png`.
+
+## Four homepage spreads and specified typo corrections — 23 October
+
+Corrected only “everthing” → “everything”, “worng” → “wrong”, “There a few” →
+“There are a few” and “matter such as” → “matters such as” in John's author note.
+The existing Beetroot and rotation spreads now have a second row: Cabbage 36–37
+and Brassica Troubles 106–107. All four use the same paper treatment and image
+enlargement. The single “Browse the book preview” button moved to the title bar;
+the short instruction now says “any spread”. No other author wording changed.
+
+The new Troubles spread is also in the full reader, bringing it to 61 pages.
+Only folios 106–107 were newly rendered from the unchanged, fingerprint-checked
+proof, with 900px reading images, 1800px enlargements, thumbnails and extracted
+text. Other page assets stayed unchanged. Homepage samples remain distinct from
+the three book-page section previews. The sample schema accepts these local
+reader WebPs alongside the existing JPGs, without loosening the cover schema.
+Reader metadata now derives its page count from the selected pages.
+
+Exact-byte data backups and transaction receipts:
+- Corrections and initial added sample selections:
+  `../../../hackriculture-data/backups/admin/2026-10-23T14-47-55.334Z-b7c8d64e-85e1-4548-a316-09ac64dec9f0/transaction.json`.
+- John's follow-up selecting a Troubles spread, plus reader inclusion:
+  `../../../hackriculture-data/backups/admin/2026-10-23T14-50-26.525Z-8264a09b-3fbd-4817-8893-d1d2c30b01ba/transaction.json`.
+
+Build, TypeScript and 16 relevant tests passed, including physical page order,
+reader navigation, distinct homepage/book-page samples and exported assets.
+Chrome verified all eight homepage page images and both new 1800px enlargements.
+Desktop review found no overflow and the second row fits beside the longer note.
+Screenshot: `docs/prelaunch-designs/screenshots/home-four-preview-spreads.png`.
+
+## Fuller homepage Troubles sample — 23 October
+
+John found the Brassica spread too sparse. Replaced it with Carrot and Parsnip
+Troubles 112–113: twelve illustrated problems across two fuller pages. The
+homepage and reader selection now use these folios; the book page still uses
+Potato Troubles 132–133. The reader remains 61 pages. Only 112–113 were rendered
+from the same proof, and the superseded public 106–107 assets were removed.
+The asset manifest and contact sheet reflect the new selection.
+
+Chrome retained failed thumbnail requests while the new images were being
+prepared. Local reader-image sample thumbnails now use the existing versioned
+image URL helper, as enlargements already did; the render version was advanced.
+Verified both 900px thumbnails and 1800px enlarged images in Chrome.
+Build, TypeScript, all 16 relevant tests and whitespace checks passed.
+
+Exact-byte backups for the two changed shared JSON files and transaction receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T15-00-07.647Z-70ebd35a-54cb-46e1-a5a1-35181dcc8004/transaction.json`.
+Screenshot: `docs/prelaunch-designs/screenshots/home-fuller-troubles-spread.png`.
+
+## Main book panel page counts and Aubergine — 23 October
+
+Replaced the two guide-title counts with four page figures, verified against the
+current 168-page production proof: 168 total pages, 88 vegetable-guide pages
+(10–97), 45 Troubles pages (100–144) and 18 Growing Techniques pages (146–163).
+The section figures count actual advice pages, excluding divider, blank and
+how-to-use pages. Shared `facts` supplies both main book feature panels.
+
+The homepage now fills the space beneath these figures with the Aubergine spread
+(68–69), keeping the paperback cover alongside it and the title-page preview
+button below. It uses the existing image-only enlargement with 1800px images.
+On phones, the spread spans the panel below the copy and cover. The selected
+reader grows from 61 to 63 pages, adding Aubergine among the later selections.
+Only those two folios were rendered; existing book assets and PDF are unchanged.
+
+New shared `home.featurePreview.spreadId` selects this spread without duplicating
+image metadata. Schema, source contract, skill reference, asset manifest, contact
+sheet and selection tests are updated. The four lower homepage samples remain.
+Exact-byte data backup/receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T15-06-47.123Z-f5899155-fe0c-4f70-af1b-a926dbcba085/transaction.json`.
+
+Production build, TypeScript, 16 relevant tests and whitespace checks passed.
+Chrome verified desktop fit, 390px layout without horizontal overflow, and both
+1800px enlarged Aubergine pages. Temporary phone sizing was reset.
+Screenshot: `docs/prelaunch-designs/screenshots/home-book-counts-aubergine.png`.
+
+Follow-up: moved the main homepage's “Take a look inside” button to the bottom
+right of the gold panel, retaining its title-page destination. The Aubergine
+preview stays on the left. Build, TypeScript and all 16 relevant checks passed;
+Chrome confirmed the button sits inside the panel's bottom-right padding.
+
+## Cleaner scrolling reader — 23 October
+
+John asked for fewer controls and a reading experience closer to Amazon's
+paperback preview. Inspected the live Read sample view of his
+[DIY Home Insulation book](https://www.amazon.co.uk/dp/B0CSWCG4K1) in Chrome:
+a continuous page column with the additional tools hidden behind a small header.
+
+The local reader now follows that pattern. The normal website masthead/footer
+are hidden only on this route. A slim sticky header provides Back to book,
+the current folio and Contents. Large original page images scroll in order on a
+quiet paper-coloured background. The contents list lives in a modal side drawer;
+it includes a link to the current page's extracted text. Clicking a page opens
+its existing high-resolution image with one Close button. Native scrolling,
+keyboard page scrolling, Escape, deep links and browser history remain usable.
+
+Removed the spread/single switch, persistent thumbnail sidebar, repeated turn
+buttons, progress bar, per-page enlargement captions, zoom percentages and
+fit-width controls. Brief gap notices explain omitted folios, and the launch
+link appears once at the end. All 63 selected pages and their assets are retained;
+no shared JSON or source PDF changed. The old page-turn navigation helper was
+removed and its test replaced with exported continuous-reading order checks.
+
+Build, TypeScript and 16 relevant tests passed. Chrome checks covered desktop and
+390px layouts, Contents jumps, a deep-link reload, image enlargement, Escape,
+returning to the book page and restored site navigation. Temporary viewport
+sizing was reset. Screenshots: `screenshots/book-reader-clean-desktop.png` and
+`screenshots/book-reader-clean-mobile.png`.
+
+Contents jumps use immediate scrolling rather than the site's smooth scrolling.
+Deep-linked folios are restored after browser/router layout restoration, including
+back/forward and cached page returns; this avoids landing above the selected page.
+Reader exit links use ordinary navigation. Browser testing confirmed return to
+the selected folio after leaving for the book page.
+
+## Five complete vegetable guides — 23 October
+
+John clarified that the shorter reader should include five complete guides
+(ten printed pages). Retained Jerusalem artichoke, Beetroot, Carrot, Cabbage
+and Aubergine, preserving all existing homepage/book-page spread enlargements.
+Opening pages and the four Troubles/Techniques spreads remain unchanged: the
+reader now contains 23 pages. Updated the shared selection, reader copy, sample
+FAQ and page metadata; refreshed the asset manifest and contact sheet using the
+existing renders. Removed all 160 image/text derivatives for the 40 excluded
+folios from public output. No source PDF, page artwork or gardening advice changed.
+
+Exact preceding JSON bytes and guarded transaction receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T15-50-48.903Z-b2b90b8d-cd77-4c38-ba5b-842835c6f662/transaction.json`.
+
+Build, TypeScript and all 16 focused tests passed, including exact reader folio
+order, existing homepage/book-page samples and absence of excluded image/text
+assets from the static export. Chrome confirms the five-guide contents and
+23-page count. Screenshot: `screenshots/book-reader-five-guides.png`.

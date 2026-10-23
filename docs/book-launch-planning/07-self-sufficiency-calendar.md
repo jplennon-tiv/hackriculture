@@ -1,5 +1,32 @@
 # Self-sufficiency calendar — local implementation, 21 October 2026
 
+## Current homepage experiment — 22 October 2026
+
+The weekly calendar now replaces the “A Self Sufficient Life” introduction card
+under the five sidebar videos. The old full-width calendar is removed. The
+introduction-video copy and media remain stored for a possible return to that
+layout; no shared JSON, advice, images or main-calendar layout changed.
+
+`CalendarWidget` in `components/site/self-sufficiency-calendar.tsx` displays the
+current UK week with one complete illustrated job at a time. `CalendarSlides`
+rotates every four seconds, wraps through the set and resets on a week change.
+The bottom strip has one clickable segment per job, previous/next and pause/play.
+The current segment fills during automatic playback. Hover, an off-screen widget
+or a hidden browser tab suspends rotation; manual selection or keyboard focus
+holds the advice until Play is pressed. Reduced-motion preferences start paused.
+Inactive slides are hidden and inert, and share a grid cell to reserve the tallest
+job's height without truncating advice. The full-calendar link targets this week.
+The widget heading reads “Jobs for early [month]” for weeks 1–2, “Jobs for mid
+[month]” for week 3, and “Jobs for late [month]” for week 4+. These simplified
+labels apply only to the homepage widget; main-calendar dates and wording stay
+unchanged.
+
+Validation: production build, TypeScript and 21 relevant calendar, launch and
+static-export tests passed. Chrome checks covered automatic advance, manual
+selection, both wrap directions, pause persistence, steady height, loaded artwork
+and a 390px phone viewport without horizontal overflow. This is a local design
+experiment for John's review; nothing has been deployed.
+
 John requested an annual graphical calendar, weekly tasks, automatic current-month prominence and a current-week homepage summary. His follow-up also authorised importing the two previously excluded maintenance-video transcripts.
 
 ## Review

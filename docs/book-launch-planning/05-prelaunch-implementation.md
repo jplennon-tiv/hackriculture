@@ -347,3 +347,136 @@ The three section illustrations were then enlarged: up to 145 px on desktop
 (previously 82 px). Desktop and 320 px browser review confirmed the fit; build,
 TypeScript and 10 launch/rendered-page checks passed. Screenshot:
 `book-contents-larger-illustrations.png` in `docs/prelaunch-designs/screenshots/`.
+
+## Before you buy copy — 23 October 2026
+
+Replaced the five retained `book.faqs` answers with John's supplied wording,
+correcting capitalisation, “online only”, “website”, “centimetres”, “metres” and
+the climate parenthesis. Preserved his tentative Christmas shipping aim and
+under-£20 expectation as supplied; these are not confirmed launch terms.
+Questions now follow his supplied order; removed the free-growing-guides question.
+“Click here” opens `/book/preview/#page=1`. Optional `faqs[].link` metadata keeps
+plain-text copy and its internal link together, with schema validation and a
+normal underlined link in the renderer. Shared contract and skill map updated.
+
+Guarded exact-byte backup and receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T16-03-53.241Z-e68e73ae-6fb1-4e30-ab6e-634b9abe6ed3/transaction.json`.
+Build, TypeScript, all 16 focused checks and whitespace checks passed. Chrome
+confirmed all five answers, the removed question and the title-page preview link.
+Screenshot: `screenshots/book-buying-questions-updated.png`. Local only.
+
+Follow-up: “email launch form” in the ordering answer now links to `/book/#launch`
+using the same inline-link metadata. Copy is otherwise unchanged. Guarded receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T16-12-45.220Z-7aedb5c2-7c9f-452e-b2c5-ef24e2153c79/transaction.json`.
+Build, TypeScript and 11 relevant tests passed; the local page response contains
+the link and its existing sign-up target.
+
+Availability follow-up: `availability.text` now reads “The book is currently at
+the print proof stage. I aim to ship the first copies in time for Christmas.”
+Only the top book-page availability paragraph uses this field; prelaunch state
+and other copy are unchanged. Guarded receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T16-14-39.088Z-078a5f74-e078-4dcd-9a5b-51ed103748ff/transaction.json`.
+Build, TypeScript and 11 relevant checks passed; the local page response confirms
+the new wording in the Book availability panel.
+
+## Urban self-sufficiency heading — 23 October 2026
+
+Updated the shared masthead, Videos page heading, retained `home.broad.heading`
+and local launch-design previews to “Urban self-sufficiency”, as requested.
+Historical narrative above still records the former panel's name. Guarded JSON
+receipt: `../../../hackriculture-data/backups/admin/2026-10-23T16-17-25.847Z-a72af1d4-987e-4b91-b2b3-dd2edcd59f88/transaction.json`.
+Build, TypeScript, 11 relevant tests and whitespace checks passed. Local homepage
+and Videos responses show the new text; no previous wording remains in exported
+HTML, JavaScript or JSON.
+
+Consistency follow-up: the footer, book-page edition line, About heading and local
+design previews now also say “Urban self-sufficiency”. Updated the retained
+`site.json` tagline to match. Guarded JSON receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T16-21-04.040Z-81e999ba-ed3f-4ff2-adfd-7efcf7be8ed4/transaction.json`.
+Build, TypeScript and 11 relevant checks passed. Local homepage, book and About
+responses show the new wording; no previous tagline remains in exported HTML,
+JavaScript or JSON.
+
+## Videos-to-book story panel — 23 October 2026
+
+John asked to replace all content below “A new chapter for Hackriculture.” in
+the top-right book-page panel with gardening-video imagery and a personal account
+of how making videos and receiving viewer feedback inspired and sustained the
+book. Drafted three versions using the Write Like John skill and only the
+experience supplied in his brief; no viewer quotations or new biography invented.
+
+The default is “A thank-you to viewers”. Local comparison links:
+- `/book/?story=viewers#book-channel-story-title` — the viewer contribution and thanks.
+- `/book/?story=beginnings#book-channel-story-title` — how the idea became a useful reference.
+- `/book/?story=companion#book-channel-story-title` — the complementary uses of a video and a book.
+
+All three share two existing local catalogue thumbnails, linking to John's
+May allotment (`N2UnUOP30qY`) and early May greenhouse (`CaYQ7D1Rwzo`) videos.
+The images use the actual thumbnails, with the existing black letterboxing
+cropped in CSS; no new artwork or video files were generated/downloaded.
+The former availability paragraph, specifications and Follow the launch link
+are replaced here. Their shared data is retained; buying FAQs and homepage book
+specifications remain available elsewhere.
+
+`book.channelStory` in shared `website/book-launch.json` owns the three drafts,
+chosen default and captioned video IDs. `lib/book-launch.ts` resolves gardening
+videos from the existing catalogue. `BookChannelStory` uses the `story` query
+only in development; normal/static output uses `defaultVariant`. No comparison
+controls are added to the public page. Schema, shared contract and skill data map
+are updated. These remain proposals for John's review.
+
+Guarded exact-byte JSON backup and receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T16-40-27.999Z-815797f9-bc66-4bd8-b600-729e88920bb8/transaction.json`.
+
+Build, TypeScript, 17 relevant tests and whitespace checks passed. Chrome showed
+all three copy choices, both images and their video links; desktop and 390px
+phone layouts were inspected. Temporary phone sizing was reset. Screenshots:
+`screenshots/book-channel-story-desktop.png` and `screenshots/book-channel-story-mobile.png`.
+
+## Chosen companion story and photographic stills — 23 October 2026
+
+John selected “A companion to the videos”. Its exact paragraphs are now the
+default in both local previews and static output. Earlier drafts remain in the
+shared JSON, but the development-only `?story=` override has been removed.
+
+Replaced the linked thumbnails with two genuine interior frames already held in
+the local resources library. These are plain photographs, without anchors, play
+icons or captions, presented with a 4px warm-white border, a subtle shadow and
+alternating two-degree tilts. Original pixels and aspect ratios are retained.
+
+| Website image | Source video | Frame | Local source |
+| --- | --- | --- | --- |
+| `/images/book/story-allotment.jpg` | September At The Allotment (`JyMOHsX0Hjs`) | 03:20 | `../hackriculture-resources/local/hackriculture-youtube/JyMOHsX0Hjs/stills/03-20.jpg` |
+| `/images/book/story-greenhouse-chillies.jpg` | Drying Beans And Chillies For Winter (`tofhxOeYWPI`) | 05:40 | `../hackriculture-resources/local/hackriculture-youtube/tofhxOeYWPI/stills/05-40.jpg` |
+
+Both 854 × 480 images are exact copies of the existing local stills. The second
+shows John checking chillies on the plant, not dried chillies. No video downloads,
+image generation or resource-library changes were needed. The website owns its
+copies in `public/images/book/` so the exported site remains standalone.
+
+Shared `book.channelStory.photographs` replaces `videos`, storing local image
+metadata and source video/time provenance. Updated the runtime schema, renderer,
+tests, shared contract and skill data map. The curated video catalogue is unchanged.
+
+Guarded exact-byte JSON backup and receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T16-52-47.675Z-c5db0ca1-b100-4b49-bac7-0c32e62355b7/transaction.json`.
+
+Build, TypeScript, 17 relevant tests and whitespace checks passed. Chrome desktop
+and 390px phone layouts were visually checked: both photographs load, the chosen
+paragraphs display, and this panel contains no links or buttons. Phone emulation
+was reset. Screenshots: `screenshots/book-channel-story-photographs.png` and
+`screenshots/book-channel-story-photographs-mobile.png`. Local only; no deployment.
+
+Follow-up: John asked to appear in both photographs. Retained the greenhouse
+shot and replaced the wide allotment view with a frame of him addressing the
+camera, smiling, from around 00:15 in `JyMOHsX0Hjs`. The new website asset is
+`/images/book/story-john-allotment.jpg`, extracted from the existing local
+`reference-video.mp4` at its original 854 × 480 size, with no retouching. Shared
+photo metadata now identifies this frame. Copy, styling and the second image
+are unchanged. The earlier image remains available for historical rollback.
+
+Guarded receipt:
+`../../../hackriculture-data/backups/admin/2026-10-23T16-55-48.822Z-c676f296-b89d-4bc9-a8a8-6c2d94eba759/transaction.json`.
+Build, TypeScript and 17 relevant tests passed after installing the selected
+frame. Chrome confirms both photographs feature John; final screenshot:
+`screenshots/book-channel-story-john-in-both.png`. Local only.

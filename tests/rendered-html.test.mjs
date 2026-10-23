@@ -6,6 +6,7 @@ const output = new URL("../dist/client/", import.meta.url);
 
 for (const [route, title] of [
   ["index.html", "Hackriculture"],
+  ["404.html", "Page not found"],
   ["book/index.html", "The Vegetable Guru"],
   ["book/preview/index.html", "Take a look inside"],
   ["videos/index.html", "Videos"],

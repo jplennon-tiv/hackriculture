@@ -105,7 +105,7 @@ John clarified that Hackriculture covers more than gardening. The front page sho
 
 All three omit “What’s growing on your plot?” and the front-page crop grid. Navigation and footer links retain access to the existing growing guides. Six selected videos per variation cover gardening, preserving, DIY solar, home maintenance and repairs. Titles, URLs, durations and local thumbnails were checked against `hackriculture-data/website/videos.json`; this was a local catalogue check, not a fresh channel audit. No new video uploads or publication dates are implied.
 
-The masthead, introduction and author section use the wider identity: **self-sufficiency in an urban setting**, including growing, food, DIY and home energy. The book is presented as the gardening part of that broader work. Forms remain demonstrations with no submission endpoint or storage. John selected variation B's layout and subsequently chose Harvest & Ink as its palette.
+The masthead, introduction and author section use the wider identity: **Urban self-sufficiency**, including growing, food, DIY and home energy. The book is presented as the gardening part of that broader work. Forms remain demonstrations with no submission endpoint or storage. John selected variation B's layout and subsequently chose Harvest & Ink as its palette.
 
 Open [the current comparison](http://127.0.0.1:5185/docs/prelaunch-designs/index.html#gold), or individual previews: [Harvest Gold](http://127.0.0.1:5185/docs/prelaunch-designs/concept.html?design=gold), [Terracotta Feature](http://127.0.0.1:5185/docs/prelaunch-designs/concept.html?design=clay), [Ink & Lemon](http://127.0.0.1:5185/docs/prelaunch-designs/concept.html?design=ink).
 

@@ -12,7 +12,7 @@ export function BookAnnouncement({author, status}: {author:string; status:string
     if (requested === 'ribbon' || requested === 'band' || requested === 'stamp') setTreatment(requested);
   }, []);
   return <div className={`h-announcement h-announcement-${treatment}`}>
-    <div className="h-announcement-author"><span>A new book from</span><strong>{author}</strong></div>
+    <div className="h-announcement-author"><span>A new paperback book from</span><strong>{author}</strong></div>
     <span className="h-announcement-status">{status}</span>
   </div>;
 }

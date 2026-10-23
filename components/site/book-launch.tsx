@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import site from '@shared/website/site.json';
 import { book } from '@/lib/book-launch';
+import { getPreviewSpread } from '@/lib/book-preview';
 import type { Video } from './video-card';
 import { LaunchForm } from './launch-form';
 import { BookAnnouncement } from './book-announcement';
+import { BookSampleEnlargement } from './book-sample-enlargement';
 
 function PaperbackCover() {
   return <div className="h-paperback-stage"><div className="h-paperback">
@@ -13,9 +15,23 @@ function PaperbackCover() {
   </div></div>;
 }
 
-export function EditionLine() { return <div className="h-edition"><strong>Self-sufficiency in an urban setting</strong><span>{site.location} · Home, garden & everyday life</span></div>; }
+export function EditionLine() { return <div className="h-edition"><strong>Urban self-sufficiency</strong><span>{site.location} · Home, garden & everyday life</span></div>; }
 export function BookFeature({ bookPage = false, announcement = false }: { bookPage?: boolean; announcement?: boolean }) {
-  return <section className={`h-book-feature${bookPage ? ' h-book-feature-detail' : ''}${announcement ? ' h-book-feature-announced' : ''}`} aria-labelledby="book-title">{announcement && <BookAnnouncement author={book.author} status={book.availability.label}/>}<div className="h-feature-copy">{!announcement && <div className="h-book-label"><span>A new book from {book.author}</span><span className="h-status">{book.availability.label}</span></div>}<h1 id="book-title">{book.title}</h1><p className="h-subtitle">{book.subtitle}</p><p className="h-feature-description">{book.featureText}</p><div className="h-facts">{book.facts.map(fact => <span key={fact.label}><b>{fact.value}</b>{fact.label}</span>)}</div><Link className="h-button" href="/book/preview/#page=1">Take a look inside <span aria-hidden="true">↗</span></Link></div><figure className="h-feature-cover"><PaperbackCover/><figcaption>By {book.author}</figcaption></figure></section>;
+  const sample = bookPage ? null : getPreviewSpread(book.home.featurePreview.spreadId);
+  const previewLink = <Link className="h-button" href="/book/preview/#page=1">Take a look inside <span aria-hidden="true">↗</span></Link>;
+  return <section className={`h-book-feature${bookPage ? ' h-book-feature-detail' : ' h-book-feature-with-preview'}${announcement ? ' h-book-feature-announced' : ''}`} aria-labelledby="book-title">
+    {announcement && <BookAnnouncement author={book.author} status={book.availability.label}/>}
+    <div className="h-feature-copy">
+      {!announcement && <div className="h-book-label"><span>A new paperback book from {book.author}</span><span className="h-status">{book.availability.label}</span></div>}
+      <h1 id="book-title">{book.title}</h1>
+      <p className="h-subtitle">{book.subtitle}</p>
+      <p className="h-feature-description">{book.featureText}</p>
+      <div className="h-facts">{book.facts.map(fact => <span key={fact.label}><b>{fact.value}</b>{fact.label}</span>)}</div>
+      {!sample && previewLink}
+    </div>
+    <figure className="h-feature-cover"><PaperbackCover/><figcaption>By {book.author}</figcaption></figure>
+    {sample && <><div className="h-feature-preview-area"><figure className="h-feature-preview"><BookSampleEnlargement sample={sample}/><figcaption>{sample.caption} · Click to enlarge</figcaption></figure></div><div className="h-feature-action">{previewLink}</div></>}
+  </section>;
 }
 export function LaunchSignup({ home = false }: { home?: boolean }) {
   const heading = <><div className="h-eyebrow">{book.title} · {book.availability.label}</div><h2 id="launch-heading">{book.signup.heading}</h2></>;
